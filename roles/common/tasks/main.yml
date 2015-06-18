@@ -1,0 +1,4 @@
+---
+- include: yum-playbook.yml
+- include: servicestop.yml
+- include: timezone.yml

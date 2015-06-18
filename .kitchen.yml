@@ -4,9 +4,13 @@ driver:
 
 provisioner:
   name: ansible_playbook
+  playbook: site.yml
+  hosts: localhost
+  roles_path: roles
+  require_ansible_repo: true
 
 platforms:
-  - name: centos-6.4
+  - name: centos
 
 suites:
   - name: default

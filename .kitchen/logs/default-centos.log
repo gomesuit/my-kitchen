@@ -1,0 +1,720 @@
+I, [2015-06-18T16:27:51.752445 #4733]  INFO -- default-centos: -----> Cleaning up any prior instances of <default-centos>
+I, [2015-06-18T16:27:51.752982 #4733]  INFO -- default-centos: -----> Destroying <default-centos>...
+I, [2015-06-18T16:27:51.773071 #4733]  INFO -- default-centos: [{
+I, [2015-06-18T16:27:51.773137 #4733]  INFO -- default-centos:     "AppArmorProfile": "",
+I, [2015-06-18T16:27:51.773167 #4733]  INFO -- default-centos:     "Args": [
+I, [2015-06-18T16:27:51.773214 #4733]  INFO -- default-centos:  "-D",
+I, [2015-06-18T16:27:51.773244 #4733]  INFO -- default-centos:  "-o",
+I, [2015-06-18T16:27:51.773270 #4733]  INFO -- default-centos:  "UseDNS=no",
+I, [2015-06-18T16:27:51.773852 #4733]  INFO -- default-centos:  "-o",
+I, [2015-06-18T16:27:51.773941 #4733]  INFO -- default-centos:  "UsePAM=no",
+I, [2015-06-18T16:27:51.774003 #4733]  INFO -- default-centos:  "-o",
+I, [2015-06-18T16:27:51.774062 #4733]  INFO -- default-centos:  "UsePrivilegeSeparation=no",
+I, [2015-06-18T16:27:51.774128 #4733]  INFO -- default-centos:  "-o",
+I, [2015-06-18T16:27:51.774184 #4733]  INFO -- default-centos:  "PidFile=/tmp/sshd.pid"
+I, [2015-06-18T16:27:51.774232 #4733]  INFO -- default-centos:     ],
+I, [2015-06-18T16:27:51.774277 #4733]  INFO -- default-centos:     "Config": {
+I, [2015-06-18T16:27:51.774336 #4733]  INFO -- default-centos:  "AttachStderr": false,
+I, [2015-06-18T16:27:51.774381 #4733]  INFO -- default-centos:  "AttachStdin": false,
+I, [2015-06-18T16:27:51.774418 #4733]  INFO -- default-centos:  "AttachStdout": false,
+I, [2015-06-18T16:27:51.774445 #4733]  INFO -- default-centos:  "Cmd": [
+I, [2015-06-18T16:27:51.774496 #4733]  INFO -- default-centos:      "/usr/sbin/sshd",
+I, [2015-06-18T16:27:51.774524 #4733]  INFO -- default-centos:      "-D",
+I, [2015-06-18T16:27:51.774553 #4733]  INFO -- default-centos:      "-o",
+I, [2015-06-18T16:27:51.774579 #4733]  INFO -- default-centos:      "UseDNS=no",
+I, [2015-06-18T16:27:51.774604 #4733]  INFO -- default-centos:      "-o",
+I, [2015-06-18T16:27:51.774630 #4733]  INFO -- default-centos:      "UsePAM=no",
+I, [2015-06-18T16:27:51.774658 #4733]  INFO -- default-centos:      "-o",
+I, [2015-06-18T16:27:51.774684 #4733]  INFO -- default-centos:      "UsePrivilegeSeparation=no",
+I, [2015-06-18T16:27:51.774709 #4733]  INFO -- default-centos:      "-o",
+I, [2015-06-18T16:27:51.774734 #4733]  INFO -- default-centos:      "PidFile=/tmp/sshd.pid"
+I, [2015-06-18T16:27:51.774762 #4733]  INFO -- default-centos:  ],
+I, [2015-06-18T16:27:51.774788 #4733]  INFO -- default-centos:  "CpuShares": 0,
+I, [2015-06-18T16:27:51.774813 #4733]  INFO -- default-centos:  "Cpuset": "",
+I, [2015-06-18T16:27:51.774839 #4733]  INFO -- default-centos:  "Domainname": "",
+I, [2015-06-18T16:27:51.774865 #4733]  INFO -- default-centos:  "Entrypoint": null,
+I, [2015-06-18T16:27:51.774891 #4733]  INFO -- default-centos:  "Env": [
+I, [2015-06-18T16:27:51.774932 #4733]  INFO -- default-centos:      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+I, [2015-06-18T16:27:51.774964 #4733]  INFO -- default-centos:  ],
+I, [2015-06-18T16:27:51.774997 #4733]  INFO -- default-centos:  "ExposedPorts": {
+I, [2015-06-18T16:27:51.775027 #4733]  INFO -- default-centos:      "22/tcp": {}
+I, [2015-06-18T16:27:51.775053 #4733]  INFO -- default-centos:  },
+I, [2015-06-18T16:27:51.775078 #4733]  INFO -- default-centos:  "Hostname": "a49bcb14c447",
+I, [2015-06-18T16:27:51.775110 #4733]  INFO -- default-centos:  "Image": "b8bed60e8818",
+I, [2015-06-18T16:27:51.775140 #4733]  INFO -- default-centos:  "MacAddress": "",
+I, [2015-06-18T16:27:51.775194 #4733]  INFO -- default-centos:  "Memory": 0,
+I, [2015-06-18T16:27:51.775225 #4733]  INFO -- default-centos:  "MemorySwap": 0,
+I, [2015-06-18T16:27:51.775253 #4733]  INFO -- default-centos:  "NetworkDisabled": false,
+I, [2015-06-18T16:27:51.775280 #4733]  INFO -- default-centos:  "OnBuild": null,
+I, [2015-06-18T16:27:51.775305 #4733]  INFO -- default-centos:  "OpenStdin": false,
+I, [2015-06-18T16:27:51.775330 #4733]  INFO -- default-centos:  "PortSpecs": null,
+I, [2015-06-18T16:27:51.775355 #4733]  INFO -- default-centos:  "StdinOnce": false,
+I, [2015-06-18T16:27:51.775385 #4733]  INFO -- default-centos:  "Tty": false,
+I, [2015-06-18T16:27:51.775412 #4733]  INFO -- default-centos:  "User": "",
+I, [2015-06-18T16:27:51.775437 #4733]  INFO -- default-centos:  "Volumes": null,
+I, [2015-06-18T16:27:51.775462 #4733]  INFO -- default-centos:  "WorkingDir": ""
+I, [2015-06-18T16:27:51.775486 #4733]  INFO -- default-centos:     },
+I, [2015-06-18T16:27:51.775507 #4733]  INFO -- default-centos:     "Created": "2015-06-18T16:27:32.552522718Z",
+I, [2015-06-18T16:27:51.775527 #4733]  INFO -- default-centos:     "Driver": "devicemapper",
+I, [2015-06-18T16:27:51.775547 #4733]  INFO -- default-centos:     "ExecDriver": "native-0.2",
+I, [2015-06-18T16:27:51.775567 #4733]  INFO -- default-centos:     "ExecIDs": null,
+I, [2015-06-18T16:27:51.775587 #4733]  INFO -- default-centos:     "HostConfig": {
+I, [2015-06-18T16:27:51.775611 #4733]  INFO -- default-centos:  "Binds": null,
+I, [2015-06-18T16:27:51.775637 #4733]  INFO -- default-centos:  "CapAdd": null,
+I, [2015-06-18T16:27:51.775662 #4733]  INFO -- default-centos:  "CapDrop": null,
+I, [2015-06-18T16:27:51.775687 #4733]  INFO -- default-centos:  "ContainerIDFile": "",
+I, [2015-06-18T16:27:51.775713 #4733]  INFO -- default-centos:  "Devices": [],
+I, [2015-06-18T16:27:51.775738 #4733]  INFO -- default-centos:  "Dns": null,
+I, [2015-06-18T16:27:51.775770 #4733]  INFO -- default-centos:  "DnsSearch": null,
+I, [2015-06-18T16:27:51.775800 #4733]  INFO -- default-centos:  "ExtraHosts": null,
+I, [2015-06-18T16:27:51.775826 #4733]  INFO -- default-centos:  "IpcMode": "",
+I, [2015-06-18T16:27:51.775851 #4733]  INFO -- default-centos:  "Links": null,
+I, [2015-06-18T16:27:51.775909 #4733]  INFO -- default-centos:  "LxcConf": [],
+I, [2015-06-18T16:27:51.776883 #4733]  INFO -- default-centos:  "NetworkMode": "bridge",
+I, [2015-06-18T16:27:51.776883 #4733]  INFO -- default-centos:  "PidMode": "",
+I, [2015-06-18T16:27:51.776883 #4733]  INFO -- default-centos:  "PortBindings": {
+I, [2015-06-18T16:27:51.776883 #4733]  INFO -- default-centos:      "22/tcp": [
+I, [2015-06-18T16:27:51.776919 #4733]  INFO -- default-centos:          {
+I, [2015-06-18T16:27:51.776954 #4733]  INFO -- default-centos:              "HostIp": "",
+I, [2015-06-18T16:27:51.776981 #4733]  INFO -- default-centos:              "HostPort": ""
+I, [2015-06-18T16:27:51.777009 #4733]  INFO -- default-centos:          }
+I, [2015-06-18T16:27:51.777036 #4733]  INFO -- default-centos:      ]
+I, [2015-06-18T16:27:51.777061 #4733]  INFO -- default-centos:  },
+I, [2015-06-18T16:27:51.777087 #4733]  INFO -- default-centos:  "Privileged": false,
+I, [2015-06-18T16:27:51.777112 #4733]  INFO -- default-centos:  "PublishAllPorts": false,
+I, [2015-06-18T16:27:51.777138 #4733]  INFO -- default-centos:  "ReadonlyRootfs": false,
+I, [2015-06-18T16:27:51.777163 #4733]  INFO -- default-centos:  "RestartPolicy": {
+I, [2015-06-18T16:27:51.777189 #4733]  INFO -- default-centos:      "MaximumRetryCount": 0,
+I, [2015-06-18T16:27:51.777214 #4733]  INFO -- default-centos:      "Name": ""
+I, [2015-06-18T16:27:51.777247 #4733]  INFO -- default-centos:  },
+I, [2015-06-18T16:27:51.777276 #4733]  INFO -- default-centos:  "SecurityOpt": null,
+I, [2015-06-18T16:27:51.777302 #4733]  INFO -- default-centos:  "VolumesFrom": null
+I, [2015-06-18T16:27:51.777324 #4733]  INFO -- default-centos:     },
+I, [2015-06-18T16:27:51.777344 #4733]  INFO -- default-centos:     "HostnamePath": "/var/lib/docker/containers/a49bcb14c4470e5110f78066e06237dfb44e3eee5108cf858d66f4d1c17a9bbc/hostname",
+I, [2015-06-18T16:27:51.777365 #4733]  INFO -- default-centos:     "HostsPath": "/var/lib/docker/containers/a49bcb14c4470e5110f78066e06237dfb44e3eee5108cf858d66f4d1c17a9bbc/hosts",
+I, [2015-06-18T16:27:51.777386 #4733]  INFO -- default-centos:     "Id": "a49bcb14c4470e5110f78066e06237dfb44e3eee5108cf858d66f4d1c17a9bbc",
+I, [2015-06-18T16:27:51.777415 #4733]  INFO -- default-centos:     "Image": "b8bed60e881847420a697fe6433e0bc4f3d1a64119adf476a89851761de08132",
+I, [2015-06-18T16:27:51.777438 #4733]  INFO -- default-centos:     "MountLabel": "",
+I, [2015-06-18T16:27:51.777463 #4733]  INFO -- default-centos:     "Name": "/agitated_perlman",
+I, [2015-06-18T16:27:51.777484 #4733]  INFO -- default-centos:     "NetworkSettings": {
+I, [2015-06-18T16:27:51.777510 #4733]  INFO -- default-centos:  "Bridge": "docker0",
+I, [2015-06-18T16:27:51.777536 #4733]  INFO -- default-centos:  "Gateway": "172.17.42.1",
+I, [2015-06-18T16:27:51.777879 #4733]  INFO -- default-centos:  "GlobalIPv6Address": "",
+I, [2015-06-18T16:27:51.777953 #4733]  INFO -- default-centos:  "GlobalIPv6PrefixLen": 0,
+I, [2015-06-18T16:27:51.778022 #4733]  INFO -- default-centos:  "IPAddress": "172.17.0.12",
+I, [2015-06-18T16:27:51.778086 #4733]  INFO -- default-centos:  "IPPrefixLen": 16,
+I, [2015-06-18T16:27:51.778154 #4733]  INFO -- default-centos:  "IPv6Gateway": "",
+I, [2015-06-18T16:27:51.778215 #4733]  INFO -- default-centos:  "LinkLocalIPv6Address": "fe80::42:acff:fe11:c",
+I, [2015-06-18T16:27:51.778273 #4733]  INFO -- default-centos:  "LinkLocalIPv6PrefixLen": 64,
+I, [2015-06-18T16:27:51.778362 #4733]  INFO -- default-centos:  "MacAddress": "02:42:ac:11:00:0c",
+I, [2015-06-18T16:27:51.778415 #4733]  INFO -- default-centos:  "PortMapping": null,
+I, [2015-06-18T16:27:51.778459 #4733]  INFO -- default-centos:  "Ports": {
+I, [2015-06-18T16:27:51.778504 #4733]  INFO -- default-centos:      "22/tcp": [
+I, [2015-06-18T16:27:51.778531 #4733]  INFO -- default-centos:          {
+I, [2015-06-18T16:27:51.778557 #4733]  INFO -- default-centos:              "HostIp": "0.0.0.0",
+I, [2015-06-18T16:27:51.778591 #4733]  INFO -- default-centos:              "HostPort": "49155"
+I, [2015-06-18T16:27:51.778620 #4733]  INFO -- default-centos:          }
+I, [2015-06-18T16:27:51.778659 #4733]  INFO -- default-centos:      ]
+I, [2015-06-18T16:27:51.778685 #4733]  INFO -- default-centos:  }
+I, [2015-06-18T16:27:51.778706 #4733]  INFO -- default-centos:     },
+I, [2015-06-18T16:27:51.778735 #4733]  INFO -- default-centos:     "Path": "/usr/sbin/sshd",
+I, [2015-06-18T16:27:51.778757 #4733]  INFO -- default-centos:     "ProcessLabel": "",
+I, [2015-06-18T16:27:51.778777 #4733]  INFO -- default-centos:     "ResolvConfPath": "/var/lib/docker/containers/a49bcb14c4470e5110f78066e06237dfb44e3eee5108cf858d66f4d1c17a9bbc/resolv.conf",
+I, [2015-06-18T16:27:51.778797 #4733]  INFO -- default-centos:     "RestartCount": 0,
+I, [2015-06-18T16:27:51.778833 #4733]  INFO -- default-centos:     "State": {
+I, [2015-06-18T16:27:51.778858 #4733]  INFO -- default-centos:  "Error": "",
+I, [2015-06-18T16:27:51.778884 #4733]  INFO -- default-centos:  "ExitCode": 0,
+I, [2015-06-18T16:27:51.778933 #4733]  INFO -- default-centos:  "FinishedAt": "0001-01-01T00:00:00Z",
+I, [2015-06-18T16:27:51.778964 #4733]  INFO -- default-centos:  "OOMKilled": false,
+I, [2015-06-18T16:27:51.778990 #4733]  INFO -- default-centos:  "Paused": false,
+I, [2015-06-18T16:27:51.779016 #4733]  INFO -- default-centos:  "Pid": 4652,
+I, [2015-06-18T16:27:51.779049 #4733]  INFO -- default-centos:  "Restarting": false,
+I, [2015-06-18T16:27:51.779078 #4733]  INFO -- default-centos:  "Running": true,
+I, [2015-06-18T16:27:51.779120 #4733]  INFO -- default-centos:  "StartedAt": "2015-06-18T16:27:32.691358118Z"
+I, [2015-06-18T16:27:51.779141 #4733]  INFO -- default-centos:     },
+I, [2015-06-18T16:27:51.779162 #4733]  INFO -- default-centos:     "Volumes": {},
+I, [2015-06-18T16:27:51.779182 #4733]  INFO -- default-centos:     "VolumesRW": {}
+I, [2015-06-18T16:27:51.779201 #4733]  INFO -- default-centos: }
+I, [2015-06-18T16:27:51.779233 #4733]  INFO -- default-centos: ]
+I, [2015-06-18T16:27:51.875687 #4733]  INFO -- default-centos: a49bcb14c4470e5110f78066e06237dfb44e3eee5108cf858d66f4d1c17a9bbc
+I, [2015-06-18T16:27:52.970259 #4733]  INFO -- default-centos: a49bcb14c4470e5110f78066e06237dfb44e3eee5108cf858d66f4d1c17a9bbc
+I, [2015-06-18T16:27:52.984341 #4733]  INFO -- default-centos: Finished destroying <default-centos> (0m1.23s).
+I, [2015-06-18T16:27:52.984693 #4733]  INFO -- default-centos: -----> Testing <default-centos>
+I, [2015-06-18T16:27:52.984796 #4733]  INFO -- default-centos: -----> Creating <default-centos>...
+I, [2015-06-18T16:27:53.006258 #4733]  INFO -- default-centos: Sending build context to Docker daemon 2.048 kB
+I, [2015-06-18T16:27:53.006428 #4733]  INFO -- default-centos: Sending build context to Docker daemon 
+I, [2015-06-18T16:27:53.023728 #4733]  INFO -- default-centos: Step 0 : FROM centos
+I, [2015-06-18T16:27:53.023728 #4733]  INFO -- default-centos:  ---> fd44297e2ddb
+I, [2015-06-18T16:27:53.023728 #4733]  INFO -- default-centos: Step 1 : RUN yum clean all
+I, [2015-06-18T16:27:53.025216 #4733]  INFO -- default-centos:  ---> Using cache
+I, [2015-06-18T16:27:53.025389 #4733]  INFO -- default-centos:  ---> f2a2c17b301e
+I, [2015-06-18T16:27:53.025559 #4733]  INFO -- default-centos: Step 2 : RUN yum install -y sudo openssh-server openssh-clients which curl
+I, [2015-06-18T16:27:53.029838 #4733]  INFO -- default-centos:  ---> Using cache
+I, [2015-06-18T16:27:53.030054 #4733]  INFO -- default-centos:  ---> 58c46f575678
+I, [2015-06-18T16:27:53.030299 #4733]  INFO -- default-centos: Step 3 : RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
+I, [2015-06-18T16:27:53.034227 #4733]  INFO -- default-centos:  ---> Using cache
+I, [2015-06-18T16:27:53.035073 #4733]  INFO -- default-centos:  ---> 11bfd1a82522
+I, [2015-06-18T16:27:53.035237 #4733]  INFO -- default-centos: Step 4 : RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N ''
+I, [2015-06-18T16:27:53.039048 #4733]  INFO -- default-centos:  ---> Using cache
+I, [2015-06-18T16:27:53.039392 #4733]  INFO -- default-centos:  ---> 9a4633d6bb9b
+I, [2015-06-18T16:27:53.039565 #4733]  INFO -- default-centos: Step 5 : RUN useradd -d /home/kitchen -m -s /bin/bash kitchen
+I, [2015-06-18T16:27:53.044071 #4733]  INFO -- default-centos:  ---> Using cache
+I, [2015-06-18T16:27:53.044348 #4733]  INFO -- default-centos:  ---> 7a063d61a25b
+I, [2015-06-18T16:27:53.044607 #4733]  INFO -- default-centos: Step 6 : RUN echo kitchen:kitchen | chpasswd
+I, [2015-06-18T16:27:53.048012 #4733]  INFO -- default-centos:  ---> Using cache
+I, [2015-06-18T16:27:53.048297 #4733]  INFO -- default-centos:  ---> 80f589c7d9ca
+I, [2015-06-18T16:27:53.048681 #4733]  INFO -- default-centos: Step 7 : RUN echo 'kitchen ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+I, [2015-06-18T16:27:53.053241 #4733]  INFO -- default-centos:  ---> Using cache
+I, [2015-06-18T16:27:53.053532 #4733]  INFO -- default-centos:  ---> b8bed60e8818
+I, [2015-06-18T16:27:53.053694 #4733]  INFO -- default-centos: Successfully built b8bed60e8818
+I, [2015-06-18T16:27:53.145103 #4733]  INFO -- default-centos: 177d57e14276dff354406820b072bbd8463819f3bca9b5ba5c6154414722d4c8
+I, [2015-06-18T16:27:53.317754 #4733]  INFO -- default-centos: [{
+I, [2015-06-18T16:27:53.317823 #4733]  INFO -- default-centos:     "AppArmorProfile": "",
+I, [2015-06-18T16:27:53.317846 #4733]  INFO -- default-centos:     "Args": [
+I, [2015-06-18T16:27:53.317880 #4733]  INFO -- default-centos:  "-D",
+I, [2015-06-18T16:27:53.317907 #4733]  INFO -- default-centos:  "-o",
+I, [2015-06-18T16:27:53.317933 #4733]  INFO -- default-centos:  "UseDNS=no",
+I, [2015-06-18T16:27:53.317958 #4733]  INFO -- default-centos:  "-o",
+I, [2015-06-18T16:27:53.317991 #4733]  INFO -- default-centos:  "UsePAM=no",
+I, [2015-06-18T16:27:53.318020 #4733]  INFO -- default-centos:  "-o",
+I, [2015-06-18T16:27:53.318046 #4733]  INFO -- default-centos:  "UsePrivilegeSeparation=no",
+I, [2015-06-18T16:27:53.318071 #4733]  INFO -- default-centos:  "-o",
+I, [2015-06-18T16:27:53.318103 #4733]  INFO -- default-centos:  "PidFile=/tmp/sshd.pid"
+I, [2015-06-18T16:27:53.318114 #4733]  INFO -- default-centos:     ],
+I, [2015-06-18T16:27:53.318151 #4733]  INFO -- default-centos:     "Config": {
+I, [2015-06-18T16:27:53.318229 #4733]  INFO -- default-centos:  "AttachStderr": false,
+I, [2015-06-18T16:27:53.318265 #4733]  INFO -- default-centos:  "AttachStdin": false,
+I, [2015-06-18T16:27:53.318298 #4733]  INFO -- default-centos:  "AttachStdout": false,
+I, [2015-06-18T16:27:53.318329 #4733]  INFO -- default-centos:  "Cmd": [
+I, [2015-06-18T16:27:53.318362 #4733]  INFO -- default-centos:      "/usr/sbin/sshd",
+I, [2015-06-18T16:27:53.318389 #4733]  INFO -- default-centos:      "-D",
+I, [2015-06-18T16:27:53.318415 #4733]  INFO -- default-centos:      "-o",
+I, [2015-06-18T16:27:53.318488 #4733]  INFO -- default-centos:      "UseDNS=no",
+I, [2015-06-18T16:27:53.318517 #4733]  INFO -- default-centos:      "-o",
+I, [2015-06-18T16:27:53.318543 #4733]  INFO -- default-centos:      "UsePAM=no",
+I, [2015-06-18T16:27:53.318569 #4733]  INFO -- default-centos:      "-o",
+I, [2015-06-18T16:27:53.318605 #4733]  INFO -- default-centos:      "UsePrivilegeSeparation=no",
+I, [2015-06-18T16:27:53.318633 #4733]  INFO -- default-centos:      "-o",
+I, [2015-06-18T16:27:53.318658 #4733]  INFO -- default-centos:      "PidFile=/tmp/sshd.pid"
+I, [2015-06-18T16:27:53.318684 #4733]  INFO -- default-centos:  ],
+I, [2015-06-18T16:27:53.318716 #4733]  INFO -- default-centos:  "CpuShares": 0,
+I, [2015-06-18T16:27:53.318745 #4733]  INFO -- default-centos:  "Cpuset": "",
+I, [2015-06-18T16:27:53.318771 #4733]  INFO -- default-centos:  "Domainname": "",
+I, [2015-06-18T16:27:53.318797 #4733]  INFO -- default-centos:  "Entrypoint": null,
+I, [2015-06-18T16:27:53.318829 #4733]  INFO -- default-centos:  "Env": [
+I, [2015-06-18T16:27:53.318859 #4733]  INFO -- default-centos:      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+I, [2015-06-18T16:27:53.318885 #4733]  INFO -- default-centos:  ],
+I, [2015-06-18T16:27:53.318911 #4733]  INFO -- default-centos:  "ExposedPorts": {
+I, [2015-06-18T16:27:53.318942 #4733]  INFO -- default-centos:      "22/tcp": {}
+I, [2015-06-18T16:27:53.318971 #4733]  INFO -- default-centos:  },
+I, [2015-06-18T16:27:53.318998 #4733]  INFO -- default-centos:  "Hostname": "177d57e14276",
+I, [2015-06-18T16:27:53.319366 #4733]  INFO -- default-centos:  "Image": "b8bed60e8818",
+I, [2015-06-18T16:27:53.319413 #4733]  INFO -- default-centos:  "MacAddress": "",
+I, [2015-06-18T16:27:53.319444 #4733]  INFO -- default-centos:  "Memory": 0,
+I, [2015-06-18T16:27:53.319471 #4733]  INFO -- default-centos:  "MemorySwap": 0,
+I, [2015-06-18T16:27:53.319496 #4733]  INFO -- default-centos:  "NetworkDisabled": false,
+I, [2015-06-18T16:27:53.319522 #4733]  INFO -- default-centos:  "OnBuild": null,
+I, [2015-06-18T16:27:53.319557 #4733]  INFO -- default-centos:  "OpenStdin": false,
+I, [2015-06-18T16:27:53.319584 #4733]  INFO -- default-centos:  "PortSpecs": null,
+I, [2015-06-18T16:27:53.319610 #4733]  INFO -- default-centos:  "StdinOnce": false,
+I, [2015-06-18T16:27:53.319635 #4733]  INFO -- default-centos:  "Tty": false,
+I, [2015-06-18T16:27:53.319668 #4733]  INFO -- default-centos:  "User": "",
+I, [2015-06-18T16:27:53.319697 #4733]  INFO -- default-centos:  "Volumes": null,
+I, [2015-06-18T16:27:53.319723 #4733]  INFO -- default-centos:  "WorkingDir": ""
+I, [2015-06-18T16:27:53.319744 #4733]  INFO -- default-centos:     },
+I, [2015-06-18T16:27:53.319764 #4733]  INFO -- default-centos:     "Created": "2015-06-18T16:27:53.092473704Z",
+I, [2015-06-18T16:27:53.319784 #4733]  INFO -- default-centos:     "Driver": "devicemapper",
+I, [2015-06-18T16:27:53.319804 #4733]  INFO -- default-centos:     "ExecDriver": "native-0.2",
+I, [2015-06-18T16:27:53.319832 #4733]  INFO -- default-centos:     "ExecIDs": null,
+I, [2015-06-18T16:27:53.319855 #4733]  INFO -- default-centos:     "HostConfig": {
+I, [2015-06-18T16:27:53.319879 #4733]  INFO -- default-centos:  "Binds": null,
+I, [2015-06-18T16:27:53.319905 #4733]  INFO -- default-centos:  "CapAdd": null,
+I, [2015-06-18T16:27:53.319931 #4733]  INFO -- default-centos:  "CapDrop": null,
+I, [2015-06-18T16:27:53.319962 #4733]  INFO -- default-centos:  "ContainerIDFile": "",
+I, [2015-06-18T16:27:53.319992 #4733]  INFO -- default-centos:  "Devices": [],
+I, [2015-06-18T16:27:53.320018 #4733]  INFO -- default-centos:  "Dns": null,
+I, [2015-06-18T16:27:53.320044 #4733]  INFO -- default-centos:  "DnsSearch": null,
+I, [2015-06-18T16:27:53.320105 #4733]  INFO -- default-centos:  "ExtraHosts": null,
+I, [2015-06-18T16:27:53.320137 #4733]  INFO -- default-centos:  "IpcMode": "",
+I, [2015-06-18T16:27:53.320168 #4733]  INFO -- default-centos:  "Links": null,
+I, [2015-06-18T16:27:53.320194 #4733]  INFO -- default-centos:  "LxcConf": [],
+I, [2015-06-18T16:27:53.320203 #4733]  INFO -- default-centos:  "NetworkMode": "bridge",
+I, [2015-06-18T16:27:53.320203 #4733]  INFO -- default-centos:  "PidMode": "",
+I, [2015-06-18T16:27:53.320225 #4733]  INFO -- default-centos:  "PortBindings": {
+I, [2015-06-18T16:27:53.320260 #4733]  INFO -- default-centos:      "22/tcp": [
+I, [2015-06-18T16:27:53.320286 #4733]  INFO -- default-centos:          {
+I, [2015-06-18T16:27:53.320322 #4733]  INFO -- default-centos:              "HostIp": "",
+I, [2015-06-18T16:27:53.320351 #4733]  INFO -- default-centos:              "HostPort": ""
+I, [2015-06-18T16:27:53.320377 #4733]  INFO -- default-centos:          }
+I, [2015-06-18T16:27:53.320403 #4733]  INFO -- default-centos:      ]
+I, [2015-06-18T16:27:53.320436 #4733]  INFO -- default-centos:  },
+I, [2015-06-18T16:27:53.320465 #4733]  INFO -- default-centos:  "Privileged": false,
+I, [2015-06-18T16:27:53.320491 #4733]  INFO -- default-centos:  "PublishAllPorts": false,
+I, [2015-06-18T16:27:53.320517 #4733]  INFO -- default-centos:  "ReadonlyRootfs": false,
+I, [2015-06-18T16:27:53.320550 #4733]  INFO -- default-centos:  "RestartPolicy": {
+I, [2015-06-18T16:27:53.320579 #4733]  INFO -- default-centos:      "MaximumRetryCount": 0,
+I, [2015-06-18T16:27:53.320605 #4733]  INFO -- default-centos:      "Name": ""
+I, [2015-06-18T16:27:53.320657 #4733]  INFO -- default-centos:  },
+I, [2015-06-18T16:27:53.320694 #4733]  INFO -- default-centos:  "SecurityOpt": null,
+I, [2015-06-18T16:27:53.320724 #4733]  INFO -- default-centos:  "VolumesFrom": null
+I, [2015-06-18T16:27:53.320746 #4733]  INFO -- default-centos:     },
+I, [2015-06-18T16:27:53.320766 #4733]  INFO -- default-centos:     "HostnamePath": "/var/lib/docker/containers/177d57e14276dff354406820b072bbd8463819f3bca9b5ba5c6154414722d4c8/hostname",
+I, [2015-06-18T16:27:53.320787 #4733]  INFO -- default-centos:     "HostsPath": "/var/lib/docker/containers/177d57e14276dff354406820b072bbd8463819f3bca9b5ba5c6154414722d4c8/hosts",
+I, [2015-06-18T16:27:53.320808 #4733]  INFO -- default-centos:     "Id": "177d57e14276dff354406820b072bbd8463819f3bca9b5ba5c6154414722d4c8",
+I, [2015-06-18T16:27:53.320828 #4733]  INFO -- default-centos:     "Image": "b8bed60e881847420a697fe6433e0bc4f3d1a64119adf476a89851761de08132",
+I, [2015-06-18T16:27:53.320849 #4733]  INFO -- default-centos:     "MountLabel": "",
+I, [2015-06-18T16:27:53.320869 #4733]  INFO -- default-centos:     "Name": "/desperate_poincare",
+I, [2015-06-18T16:27:53.320889 #4733]  INFO -- default-centos:     "NetworkSettings": {
+I, [2015-06-18T16:27:53.320923 #4733]  INFO -- default-centos:  "Bridge": "docker0",
+I, [2015-06-18T16:27:53.320951 #4733]  INFO -- default-centos:  "Gateway": "172.17.42.1",
+I, [2015-06-18T16:27:53.321200 #4733]  INFO -- default-centos:  "GlobalIPv6Address": "",
+I, [2015-06-18T16:27:53.321327 #4733]  INFO -- default-centos:  "GlobalIPv6PrefixLen": 0,
+I, [2015-06-18T16:27:53.321376 #4733]  INFO -- default-centos:  "IPAddress": "172.17.0.13",
+I, [2015-06-18T16:27:53.321413 #4733]  INFO -- default-centos:  "IPPrefixLen": 16,
+I, [2015-06-18T16:27:53.321440 #4733]  INFO -- default-centos:  "IPv6Gateway": "",
+I, [2015-06-18T16:27:53.321466 #4733]  INFO -- default-centos:  "LinkLocalIPv6Address": "fe80::42:acff:fe11:d",
+I, [2015-06-18T16:27:53.321499 #4733]  INFO -- default-centos:  "LinkLocalIPv6PrefixLen": 64,
+I, [2015-06-18T16:27:53.321529 #4733]  INFO -- default-centos:  "MacAddress": "02:42:ac:11:00:0d",
+I, [2015-06-18T16:27:53.321555 #4733]  INFO -- default-centos:  "PortMapping": null,
+I, [2015-06-18T16:27:53.321581 #4733]  INFO -- default-centos:  "Ports": {
+I, [2015-06-18T16:27:53.321614 #4733]  INFO -- default-centos:      "22/tcp": [
+I, [2015-06-18T16:27:53.321643 #4733]  INFO -- default-centos:          {
+I, [2015-06-18T16:27:53.321670 #4733]  INFO -- default-centos:              "HostIp": "0.0.0.0",
+I, [2015-06-18T16:27:53.321697 #4733]  INFO -- default-centos:              "HostPort": "49156"
+I, [2015-06-18T16:27:53.321734 #4733]  INFO -- default-centos:          }
+I, [2015-06-18T16:27:53.321764 #4733]  INFO -- default-centos:      ]
+I, [2015-06-18T16:27:53.321790 #4733]  INFO -- default-centos:  }
+I, [2015-06-18T16:27:53.321811 #4733]  INFO -- default-centos:     },
+I, [2015-06-18T16:27:53.321831 #4733]  INFO -- default-centos:     "Path": "/usr/sbin/sshd",
+I, [2015-06-18T16:27:53.321851 #4733]  INFO -- default-centos:     "ProcessLabel": "",
+I, [2015-06-18T16:27:53.321871 #4733]  INFO -- default-centos:     "ResolvConfPath": "/var/lib/docker/containers/177d57e14276dff354406820b072bbd8463819f3bca9b5ba5c6154414722d4c8/resolv.conf",
+I, [2015-06-18T16:27:53.321891 #4733]  INFO -- default-centos:     "RestartCount": 0,
+I, [2015-06-18T16:27:53.321917 #4733]  INFO -- default-centos:     "State": {
+I, [2015-06-18T16:27:53.321946 #4733]  INFO -- default-centos:  "Error": "",
+I, [2015-06-18T16:27:53.321973 #4733]  INFO -- default-centos:  "ExitCode": 0,
+I, [2015-06-18T16:27:53.321999 #4733]  INFO -- default-centos:  "FinishedAt": "0001-01-01T00:00:00Z",
+I, [2015-06-18T16:27:53.322024 #4733]  INFO -- default-centos:  "OOMKilled": false,
+I, [2015-06-18T16:27:53.322088 #4733]  INFO -- default-centos:  "Paused": false,
+I, [2015-06-18T16:27:53.322115 #4733]  INFO -- default-centos:  "Pid": 4877,
+I, [2015-06-18T16:27:53.322121 #4733]  INFO -- default-centos:  "Restarting": false,
+I, [2015-06-18T16:27:53.322157 #4733]  INFO -- default-centos:  "Running": true,
+I, [2015-06-18T16:27:53.322192 #4733]  INFO -- default-centos:  "StartedAt": "2015-06-18T16:27:53.224283063Z"
+I, [2015-06-18T16:27:53.322217 #4733]  INFO -- default-centos:     },
+I, [2015-06-18T16:27:53.322238 #4733]  INFO -- default-centos:     "Volumes": {},
+I, [2015-06-18T16:27:53.322258 #4733]  INFO -- default-centos:     "VolumesRW": {}
+I, [2015-06-18T16:27:53.322277 #4733]  INFO -- default-centos: }
+I, [2015-06-18T16:27:53.322296 #4733]  INFO -- default-centos: ]
+I, [2015-06-18T16:27:53.473534 #4733]  INFO -- default-centos: [SSH] Established
+I, [2015-06-18T16:27:53.475721 #4733]  INFO -- default-centos: Finished creating <default-centos> (0m0.49s).
+I, [2015-06-18T16:27:53.475986 #4733]  INFO -- default-centos: -----> Converging <default-centos>...
+W, [2015-06-18T16:27:53.476477 #4733]  WARN -- default-centos: Running legacy converge for 'Docker' Driver
+I, [2015-06-18T16:27:53.477063 #4733]  INFO -- default-centos: Preparing files for transfer
+I, [2015-06-18T16:27:53.477151 #4733]  INFO -- default-centos: Preparing playbook
+I, [2015-06-18T16:27:53.477366 #4733]  INFO -- default-centos: Preparing modules
+I, [2015-06-18T16:27:53.477518 #4733]  INFO -- default-centos: nothing to do for modules
+I, [2015-06-18T16:27:53.477553 #4733]  INFO -- default-centos: Preparing roles
+I, [2015-06-18T16:27:53.482163 #4733]  INFO -- default-centos: Preparing ansible.cfg file
+I, [2015-06-18T16:27:53.482231 #4733]  INFO -- default-centos: Preparing group_vars
+I, [2015-06-18T16:27:53.482365 #4733]  INFO -- default-centos: nothing to do for group_vars
+I, [2015-06-18T16:27:53.482408 #4733]  INFO -- default-centos: Preparing additional_copy_path
+I, [2015-06-18T16:27:53.482475 #4733]  INFO -- default-centos: Preparing host_vars
+I, [2015-06-18T16:27:53.482621 #4733]  INFO -- default-centos: nothing to do for host_vars
+I, [2015-06-18T16:27:53.482664 #4733]  INFO -- default-centos: Preparing hosts file
+I, [2015-06-18T16:27:53.482756 #4733]  INFO -- default-centos: Preparing filter_plugins
+I, [2015-06-18T16:27:53.482893 #4733]  INFO -- default-centos: nothing to do for filter_plugins
+I, [2015-06-18T16:27:53.482968 #4733]  INFO -- default-centos: Finished Preparing files for transfer
+I, [2015-06-18T16:27:53.483529 #4733]  INFO -- default-centos: Installing ansible, will try to determine platform os
+I, [2015-06-18T16:27:53.500628 #4733]  INFO -- default-centos: which: no ansible in (/usr/local/bin:/usr/bin)
+I, [2015-06-18T16:27:53.546334 #4733]  INFO -- default-centos: Retrieving https://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+I, [2015-06-18T16:28:06.588800 #4733]  INFO -- default-centos: warning: /var/tmp/rpm-tmp.CDajfZ: Header V3 RSA/SHA256 Signature, key ID 0608b895: NOKEY
+I, [2015-06-18T16:28:06.598948 #4733]  INFO -- default-centos: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2015-06-18T16:28:06.599806 #4733]  INFO -- default-centos: Updating / installing...
+I, [2015-06-18T16:28:06.606394 #4733]  INFO -- default-centos: ###                               ( 14%)####                              ( 14%)#####                             ( 19%)######                            ( 19%)#######                           ( 99%)########                          ( 99%)#########                         ( 99%)##########                        ( 99%)###########                       ( 99%)############                      ( 99%)#############                     ( 99%)##############                    ( 99%)###############                   ( 99%)################                  ( 99%)#################                 ( 99%)##################                ( 99%)###################               ( 99%)####################              ( 99%)#####################             ( 99%)######################            ( 99%)#######################           ( 99%)########################          ( 99%)#########################         ( 99%)##########################        ( 99%)###########################       ( 99%)############################      ( 99%)#############################     ( 99%)##############################    ( 99%)###############################   ( 99%)################################  ( 99%)################################# ( 99%)################################# [100%]
+I, [2015-06-18T16:28:06.844162 #4733]  INFO -- default-centos: Loaded plugins: fastestmirror
+I, [2015-06-18T16:28:12.055666 #4733]  INFO -- default-centos: base                                                     | 3.6 kB     00:00     
+I, [2015-06-18T16:28:18.998695 #4733]  INFO -- default-centos: epel/x86_64/metalink                                     | 3.5 kB     00:00     
+I, [2015-06-18T16:28:19.038615 #4733]  INFO -- default-centos: epel                                                     | 4.4 kB     00:00     
+I, [2015-06-18T16:28:19.076603 #4733]  INFO -- default-centos: extras                                                   | 3.4 kB     00:00     
+I, [2015-06-18T16:28:25.195531 #4733]  INFO -- default-centos: systemdcontainer                                         | 1.9 kB     00:00     
+I, [2015-06-18T16:28:25.235867 #4733]  INFO -- default-centos: updates                                                  | 3.4 kB     00:00     
+I, [2015-06-18T16:28:30.704422 #4733]  INFO -- default-centos: (2/12): base/7/x86_64/othe 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/12): epel/x86_64/group_gz                               | 149 kB   00:05     
+I, [2015-06-18T16:28:31.674063 #4733]  INFO -- default-centos: (3/12): base/7/x86_64/othe 5% [-                ]  0.0 B/s | 2.3 MB   --:-- ETA (3/12): base/7/x86_64/othe 16% [==-             ] 6.7 MB/s | 6.5 MB   00:05 ETA (4/12): epel/x86_64/fileli 27% [====            ] 7.0 MB/s |  11 MB   00:04 ETA (2/12): base/7/x86_64/other_db                             | 2.2 MB   00:06     
+I, [2015-06-18T16:28:32.931680 #4733]  INFO -- default-centos: (3/12): base/7/x86_64/file 37% [======          ] 7.0 MB/s |  15 MB   00:03 ETA (4/12): epel/x86_64/fileli 40% [======          ] 6.5 MB/s |  16 MB   00:03 ETA (3/12): base/7/x86_64/filelists_db                         | 6.0 MB   00:07     
+I, [2015-06-18T16:28:33.424704 #4733]  INFO -- default-centos: (4/12): epel/x86_64/fileli 44% [=======         ] 6.0 MB/s |  18 MB   00:03 ETA (4/12): epel/x86_64/filelists_db                           | 9.5 MB   00:02     
+I, [2015-06-18T16:28:37.769719 #4733]  INFO -- default-centos: (5/12): epel/x86_64/primar 44% [=======         ] 5.5 MB/s |  18 MB   00:04 ETA (5/12): epel/x86_64/primar 45% [=======         ] 5.3 MB/s |  18 MB   00:04 ETA (5/12): epel/x86_64/primar 46% [=======         ] 5.0 MB/s |  19 MB   00:04 ETA (5/12): epel/x86_64/primar 48% [=======-        ] 4.8 MB/s |  19 MB   00:04 ETA (5/12): epel/x86_64/primar 49% [=======-        ] 4.6 MB/s |  20 MB   00:04 ETA (5/12): epel/x86_64/primar 51% [========        ] 4.5 MB/s |  21 MB   00:04 ETA (5/12): epel/x86_64/primar 52% [========        ] 4.3 MB/s |  21 MB   00:04 ETA (5/12): epel/x86_64/primar 55% [========-       ] 4.2 MB/s |  22 MB   00:04 ETA (5/12): epel/x86_64/primar 57% [=========       ] 4.2 MB/s |  23 MB   00:04 ETA (5/12): epel/x86_64/primar 59% [=========-      ] 4.1 MB/s |  24 MB   00:03 ETA (5/12): epel/x86_64/primar 60% [=========-      ] 3.3 MB/s |  24 MB   00:04 ETA (5/12): epel/x86_64/primary_db                             | 6.6 MB   00:04     
+I, [2015-06-18T16:28:37.850664 #4733]  INFO -- default-centos: (6/12): extras/7/x86_64/prestodelta                        | 5.1 kB   00:00     
+I, [2015-06-18T16:28:37.979464 #4733]  INFO -- default-centos: (7/12): updates/7/x86_64/prestodelta                       |  81 kB   00:00     
+I, [2015-06-18T16:28:39.133662 #4733]  INFO -- default-centos: (8/12): epel/x86_64/other_ 66% [==========-     ] 3.4 MB/s |  27 MB   00:03 ETA (8/12): epel/x86_64/other_ 74% [===========-    ] 3.9 MB/s |  30 MB   00:02 ETA (9/12): extras/7/x86_64/fi 75% [============    ] 3.6 MB/s |  31 MB   00:02 ETA (8/12): epel/x86_64/other_db                               | 3.9 MB   00:01     
+I, [2015-06-18T16:28:43.213727 #4733]  INFO -- default-centos: (10/12): extras/7/x86_64/o 76% [============    ] 3.5 MB/s |  31 MB   00:02 ETA (10/12): extras/7/x86_64/o 81% [=============   ] 3.6 MB/s |  33 MB   00:02 ETA (10/12): extras/7/x86_64/o 86% [=============-  ] 3.8 MB/s |  35 MB   00:01 ETA (11/12): updates/7/x86_64/ 90% [==============  ] 3.9 MB/s |  36 MB   00:01 ETA (11/12): updates/7/x86_64/ 93% [==============- ] 3.9 MB/s |  38 MB   00:00 ETA (12/12): updates/7/x86_64/ 96% [=============== ] 3.1 MB/s |  39 MB   00:00 ETA (9/12): extras/7/x86_64/fi 96% [=============== ] 2.5 MB/s |  39 MB   00:00 ETA (9/12): extras/7/x86_64/fi 96% [=============== ] 2.3 MB/s |  39 MB   00:00 ETA (9/12): updates/7/x86_64/other_db                          |  10 MB   00:05     
+I, [2015-06-18T16:28:43.222918 #4733]  INFO -- default-centos: (10/12): extras/7/x86_64/filelists_db                      | 122 kB   00:05     
+I, [2015-06-18T16:28:43.234702 #4733]  INFO -- default-centos: (11/12): extras/7/x86_64/other_db                          | 168 kB   00:05     
+I, [2015-06-18T16:28:43.650728 #4733]  INFO -- default-centos: (12/12): updates/7/x86_64/ 99% [===============-] 2.4 MB/s |  40 MB   00:00 ETA (12/12): updates/7/x86_64/filelists_db                     | 1.3 MB   00:05     
+I, [2015-06-18T16:28:49.147702 #4733]  INFO -- default-centos: (1/4): epel/x86_64/updateinfo                      0.0 B/s |    0 B   00:05     (1/4): epel/x86_64/updateinfo                              | 1.0 MB   00:05     
+I, [2015-06-18T16:28:49.515654 #4733]  INFO -- default-centos: (2/4): epel/x86_64/pkgtag 254% [================]  0.0 B/s | 2.5 MB   --:-- ETA (2/4): epel/x86_64/pkgtags                                 | 1.5 MB   00:00     
+I, [2015-06-18T16:28:54.969739 #4733]  INFO -- default-centos: (4/4): systemdcontainer/o 100% [================] 1.5 kB/s | 2.5 MB   00:00 ETA (4/4): systemdcontainer/o 100% [================] 4.7 kB/s | 2.5 MB   --:-- ETA (3/4): systemdcontainer/filelists_db                       |  19 kB   00:05     
+I, [2015-06-18T16:28:55.893691 #4733]  INFO -- default-centos: (4/4): systemdcontainer/o 100% [================] 5.0 kB/s | 2.5 MB   00:00 ETA (4/4): systemdcontainer/o 100% [================] 8.2 kB/s | 2.5 MB   --:-- ETA (4/4): systemdcontainer/other_db                           |  52 kB   00:06     
+I, [2015-06-18T16:28:55.906598 #4733]  INFO -- default-centos: Loading mirror speeds from cached hostfile
+I, [2015-06-18T16:28:56.276945 #4733]  INFO -- default-centos:  * base: www.ftp.ne.jp
+I, [2015-06-18T16:28:56.278780 #4733]  INFO -- default-centos:  * epel: mirror.premi.st
+I, [2015-06-18T16:28:56.280618 #4733]  INFO -- default-centos:  * extras: www.ftp.ne.jp
+I, [2015-06-18T16:28:56.283740 #4733]  INFO -- default-centos:  * updates: www.ftp.ne.jp
+I, [2015-06-18T16:29:11.143632 #4733]  INFO -- default-centos: Metadata Cache Created
+I, [2015-06-18T16:29:11.308502 #4733]  INFO -- default-centos: Loaded plugins: fastestmirror
+I, [2015-06-18T16:29:11.361584 #4733]  INFO -- default-centos: Loading mirror speeds from cached hostfile
+I, [2015-06-18T16:29:13.202757 #4733]  INFO -- default-centos:  * base: www.ftp.ne.jp
+I, [2015-06-18T16:29:13.204552 #4733]  INFO -- default-centos:  * epel: mirror.premi.st
+I, [2015-06-18T16:29:13.204589 #4733]  INFO -- default-centos:  * extras: www.ftp.ne.jp
+I, [2015-06-18T16:29:13.206674 #4733]  INFO -- default-centos:  * updates: www.ftp.ne.jp
+I, [2015-06-18T16:29:14.541637 #4733]  INFO -- default-centos: Resolving Dependencies
+I, [2015-06-18T16:29:14.541692 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:14.541717 #4733]  INFO -- default-centos: ---> Package ansible.noarch 0:1.9.1-1.el6 will be installed
+I, [2015-06-18T16:29:14.561628 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:14.564657 #4733]  INFO -- default-centos: --> Processing Dependency: python-simplejson for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:14.566769 #4733]  INFO -- default-centos: --> Processing Dependency: python-setuptools for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:14.994625 #4733]  INFO -- default-centos: --> Processing Dependency: python-paramiko for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:14.996706 #4733]  INFO -- default-centos: --> Processing Dependency: python-keyczar for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:14.998613 #4733]  INFO -- default-centos: --> Processing Dependency: python-jinja2 for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:14.999718 #4733]  INFO -- default-centos: --> Processing Dependency: python-httplib2 for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.004681 #4733]  INFO -- default-centos: --> Processing Dependency: python-crypto2.6 for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.005611 #4733]  INFO -- default-centos: --> Processing Dependency: PyYAML for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.007988 #4733]  INFO -- default-centos: ---> Package git.x86_64 0:1.8.3.1-4.el7 will be installed
+I, [2015-06-18T16:29:15.045724 #4733]  INFO -- default-centos: --> Processing Dependency: perl-Git = 1.8.3.1-4.el7 for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.047612 #4733]  INFO -- default-centos: --> Processing Dependency: perl >= 5.008 for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.055469 #4733]  INFO -- default-centos: --> Processing Dependency: rsync for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.057119 #4733]  INFO -- default-centos: --> Processing Dependency: perl(warnings) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.057184 #4733]  INFO -- default-centos: --> Processing Dependency: perl(vars) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.057296 #4733]  INFO -- default-centos: --> Processing Dependency: perl(strict) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.059797 #4733]  INFO -- default-centos: --> Processing Dependency: perl(lib) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.059869 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Term::ReadKey) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.066118 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Git) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.068764 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Getopt::Long) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.071459 #4733]  INFO -- default-centos: --> Processing Dependency: perl(File::stat) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.071950 #4733]  INFO -- default-centos: --> Processing Dependency: perl(File::Temp) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.076743 #4733]  INFO -- default-centos: --> Processing Dependency: perl(File::Spec) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.079730 #4733]  INFO -- default-centos: --> Processing Dependency: perl(File::Path) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.080802 #4733]  INFO -- default-centos: --> Processing Dependency: perl(File::Find) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.082834 #4733]  INFO -- default-centos: --> Processing Dependency: perl(File::Copy) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.082881 #4733]  INFO -- default-centos: --> Processing Dependency: perl(File::Basename) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.084869 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Exporter) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.087722 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Error) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.090358 #4733]  INFO -- default-centos: --> Processing Dependency: /usr/bin/perl for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.091952 #4733]  INFO -- default-centos: --> Processing Dependency: libgnome-keyring.so.0()(64bit) for package: git-1.8.3.1-4.el7.x86_64
+I, [2015-06-18T16:29:15.095643 #4733]  INFO -- default-centos: ---> Package libselinux-python.x86_64 0:2.2.2-6.el7 will be installed
+I, [2015-06-18T16:29:15.100830 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:15.100902 #4733]  INFO -- default-centos: ---> Package PyYAML.x86_64 0:3.10-11.el7 will be installed
+I, [2015-06-18T16:29:15.115658 #4733]  INFO -- default-centos: --> Processing Dependency: libyaml-0.so.2()(64bit) for package: PyYAML-3.10-11.el7.x86_64
+I, [2015-06-18T16:29:15.118862 #4733]  INFO -- default-centos: ---> Package ansible.noarch 0:1.9.1-1.el6 will be installed
+I, [2015-06-18T16:29:15.122697 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.124629 #4733]  INFO -- default-centos: --> Processing Dependency: python-simplejson for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.125369 #4733]  INFO -- default-centos: ---> Package libgnome-keyring.x86_64 0:3.8.0-3.el7 will be installed
+I, [2015-06-18T16:29:15.133843 #4733]  INFO -- default-centos: ---> Package perl.x86_64 4:5.16.3-285.el7 will be installed
+I, [2015-06-18T16:29:15.164601 #4733]  INFO -- default-centos: --> Processing Dependency: perl-libs = 4:5.16.3-285.el7 for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.170810 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Socket) >= 1.3 for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.172657 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Scalar::Util) >= 1.10 for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.175713 #4733]  INFO -- default-centos: --> Processing Dependency: perl-macros for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.178832 #4733]  INFO -- default-centos: --> Processing Dependency: perl-libs for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.180730 #4733]  INFO -- default-centos: --> Processing Dependency: perl(threads::shared) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.183772 #4733]  INFO -- default-centos: --> Processing Dependency: perl(threads) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.185758 #4733]  INFO -- default-centos: --> Processing Dependency: perl(constant) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.189845 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Time::Local) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.191591 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Time::HiRes) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.193560 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Storable) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.197865 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Socket) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.197947 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Scalar::Util) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.200193 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Pod::Simple::XHTML) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.204816 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Pod::Simple::Search) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.204881 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Filter::Util::Call) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.208775 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Carp) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.210568 #4733]  INFO -- default-centos: --> Processing Dependency: libperl.so()(64bit) for package: 4:perl-5.16.3-285.el7.x86_64
+I, [2015-06-18T16:29:15.213405 #4733]  INFO -- default-centos: ---> Package perl-Error.noarch 1:0.17020-2.el7 will be installed
+I, [2015-06-18T16:29:15.219487 #4733]  INFO -- default-centos: ---> Package perl-Exporter.noarch 0:5.68-3.el7 will be installed
+I, [2015-06-18T16:29:15.221812 #4733]  INFO -- default-centos: ---> Package perl-File-Path.noarch 0:2.09-2.el7 will be installed
+I, [2015-06-18T16:29:15.225702 #4733]  INFO -- default-centos: ---> Package perl-File-Temp.noarch 0:0.23.01-3.el7 will be installed
+I, [2015-06-18T16:29:15.233769 #4733]  INFO -- default-centos: ---> Package perl-Getopt-Long.noarch 0:2.40-2.el7 will be installed
+I, [2015-06-18T16:29:15.238697 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Pod::Usage) >= 1.14 for package: perl-Getopt-Long-2.40-2.el7.noarch
+I, [2015-06-18T16:29:15.241885 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Text::ParseWords) for package: perl-Getopt-Long-2.40-2.el7.noarch
+I, [2015-06-18T16:29:15.243805 #4733]  INFO -- default-centos: ---> Package perl-Git.noarch 0:1.8.3.1-4.el7 will be installed
+I, [2015-06-18T16:29:15.249777 #4733]  INFO -- default-centos: ---> Package perl-PathTools.x86_64 0:3.40-5.el7 will be installed
+I, [2015-06-18T16:29:15.253407 #4733]  INFO -- default-centos: ---> Package perl-TermReadKey.x86_64 0:2.30-20.el7 will be installed
+I, [2015-06-18T16:29:15.260381 #4733]  INFO -- default-centos: ---> Package python-crypto2.6.x86_64 0:2.6.1-2.el6 will be installed
+I, [2015-06-18T16:29:15.262853 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-crypto2.6-2.6.1-2.el6.x86_64
+I, [2015-06-18T16:29:15.263842 #4733]  INFO -- default-centos: --> Processing Dependency: libpython2.6.so.1.0()(64bit) for package: python-crypto2.6-2.6.1-2.el6.x86_64
+I, [2015-06-18T16:29:15.267594 #4733]  INFO -- default-centos: ---> Package python-httplib2.noarch 0:0.7.7-1.el6 will be installed
+I, [2015-06-18T16:29:15.270080 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-httplib2-0.7.7-1.el6.noarch
+I, [2015-06-18T16:29:15.271748 #4733]  INFO -- default-centos: ---> Package python-jinja2.noarch 0:2.7.2-2.el7 will be installed
+I, [2015-06-18T16:29:15.276258 #4733]  INFO -- default-centos: --> Processing Dependency: python-babel >= 0.8 for package: python-jinja2-2.7.2-2.el7.noarch
+I, [2015-06-18T16:29:15.278874 #4733]  INFO -- default-centos: --> Processing Dependency: python-markupsafe for package: python-jinja2-2.7.2-2.el7.noarch
+I, [2015-06-18T16:29:15.283934 #4733]  INFO -- default-centos: ---> Package python-keyczar.noarch 0:0.71c-1.el6 will be installed
+I, [2015-06-18T16:29:15.287838 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-keyczar-0.71c-1.el6.noarch
+I, [2015-06-18T16:29:15.289775 #4733]  INFO -- default-centos: --> Processing Dependency: python-pyasn1 for package: python-keyczar-0.71c-1.el6.noarch
+I, [2015-06-18T16:29:15.293784 #4733]  INFO -- default-centos: --> Processing Dependency: python-crypto for package: python-keyczar-0.71c-1.el6.noarch
+I, [2015-06-18T16:29:15.297013 #4733]  INFO -- default-centos: ---> Package python-paramiko.noarch 0:1.12.4-1.el7.centos will be installed
+I, [2015-06-18T16:29:15.300707 #4733]  INFO -- default-centos: --> Processing Dependency: python-ecdsa for package: python-paramiko-1.12.4-1.el7.centos.noarch
+I, [2015-06-18T16:29:15.302456 #4733]  INFO -- default-centos: ---> Package python-setuptools.noarch 0:0.9.8-3.el7 will be installed
+I, [2015-06-18T16:29:15.305684 #4733]  INFO -- default-centos: --> Processing Dependency: python-backports-ssl_match_hostname for package: python-setuptools-0.9.8-3.el7.noarch
+I, [2015-06-18T16:29:15.310051 #4733]  INFO -- default-centos: ---> Package rsync.x86_64 0:3.0.9-15.el7 will be installed
+I, [2015-06-18T16:29:15.323129 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:15.323329 #4733]  INFO -- default-centos: ---> Package ansible.noarch 0:1.9.1-1.el6 will be installed
+I, [2015-06-18T16:29:15.328917 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.330855 #4733]  INFO -- default-centos: --> Processing Dependency: python-simplejson for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.333000 #4733]  INFO -- default-centos: ---> Package libyaml.x86_64 0:0.1.4-11.el7_0 will be installed
+I, [2015-06-18T16:29:15.336269 #4733]  INFO -- default-centos: ---> Package perl-Carp.noarch 0:1.26-244.el7 will be installed
+I, [2015-06-18T16:29:15.337782 #4733]  INFO -- default-centos: ---> Package perl-Filter.x86_64 0:1.49-3.el7 will be installed
+I, [2015-06-18T16:29:15.342695 #4733]  INFO -- default-centos: ---> Package perl-Pod-Simple.noarch 1:3.28-4.el7 will be installed
+I, [2015-06-18T16:29:15.350781 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Pod::Escapes) >= 1.04 for package: 1:perl-Pod-Simple-3.28-4.el7.noarch
+I, [2015-06-18T16:29:15.353575 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Encode) for package: 1:perl-Pod-Simple-3.28-4.el7.noarch
+I, [2015-06-18T16:29:15.355860 #4733]  INFO -- default-centos: ---> Package perl-Pod-Usage.noarch 0:1.63-3.el7 will be installed
+I, [2015-06-18T16:29:15.361325 #4733]  INFO -- default-centos: --> Processing Dependency: perl(Pod::Text) >= 3.15 for package: perl-Pod-Usage-1.63-3.el7.noarch
+I, [2015-06-18T16:29:15.364549 #4733]  INFO -- default-centos: --> Processing Dependency: perl-Pod-Perldoc for package: perl-Pod-Usage-1.63-3.el7.noarch
+I, [2015-06-18T16:29:15.368689 #4733]  INFO -- default-centos: ---> Package perl-Scalar-List-Utils.x86_64 0:1.27-248.el7 will be installed
+I, [2015-06-18T16:29:15.371908 #4733]  INFO -- default-centos: ---> Package perl-Socket.x86_64 0:2.010-3.el7 will be installed
+I, [2015-06-18T16:29:15.377624 #4733]  INFO -- default-centos: ---> Package perl-Storable.x86_64 0:2.45-3.el7 will be installed
+I, [2015-06-18T16:29:15.379901 #4733]  INFO -- default-centos: ---> Package perl-Text-ParseWords.noarch 0:3.29-4.el7 will be installed
+I, [2015-06-18T16:29:15.383301 #4733]  INFO -- default-centos: ---> Package perl-Time-HiRes.x86_64 4:1.9725-3.el7 will be installed
+I, [2015-06-18T16:29:15.386864 #4733]  INFO -- default-centos: ---> Package perl-Time-Local.noarch 0:1.2300-2.el7 will be installed
+I, [2015-06-18T16:29:15.393737 #4733]  INFO -- default-centos: ---> Package perl-constant.noarch 0:1.27-2.el7 will be installed
+I, [2015-06-18T16:29:15.396877 #4733]  INFO -- default-centos: ---> Package perl-libs.x86_64 4:5.16.3-285.el7 will be installed
+I, [2015-06-18T16:29:15.406841 #4733]  INFO -- default-centos: ---> Package perl-macros.x86_64 4:5.16.3-285.el7 will be installed
+I, [2015-06-18T16:29:15.408856 #4733]  INFO -- default-centos: ---> Package perl-threads.x86_64 0:1.87-4.el7 will be installed
+I, [2015-06-18T16:29:15.413810 #4733]  INFO -- default-centos: ---> Package perl-threads-shared.x86_64 0:1.43-6.el7 will be installed
+I, [2015-06-18T16:29:15.420359 #4733]  INFO -- default-centos: ---> Package python-babel.noarch 0:0.9.6-8.el7 will be installed
+I, [2015-06-18T16:29:15.420452 #4733]  INFO -- default-centos: ---> Package python-backports-ssl_match_hostname.noarch 0:3.4.0.2-4.el7 will be installed
+I, [2015-06-18T16:29:15.421614 #4733]  INFO -- default-centos: --> Processing Dependency: python-backports for package: python-backports-ssl_match_hostname-3.4.0.2-4.el7.noarch
+I, [2015-06-18T16:29:15.426063 #4733]  INFO -- default-centos: ---> Package python-crypto.x86_64 0:2.6.1-1.el7.centos will be installed
+I, [2015-06-18T16:29:15.432697 #4733]  INFO -- default-centos: ---> Package python-crypto2.6.x86_64 0:2.6.1-2.el6 will be installed
+I, [2015-06-18T16:29:15.434752 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-crypto2.6-2.6.1-2.el6.x86_64
+I, [2015-06-18T16:29:15.436862 #4733]  INFO -- default-centos: --> Processing Dependency: libpython2.6.so.1.0()(64bit) for package: python-crypto2.6-2.6.1-2.el6.x86_64
+I, [2015-06-18T16:29:15.438244 #4733]  INFO -- default-centos: ---> Package python-ecdsa.noarch 0:0.11-3.el7.centos will be installed
+I, [2015-06-18T16:29:15.440014 #4733]  INFO -- default-centos: --> Processing Dependency: python-six for package: python-ecdsa-0.11-3.el7.centos.noarch
+I, [2015-06-18T16:29:15.444762 #4733]  INFO -- default-centos: ---> Package python-httplib2.noarch 0:0.7.7-1.el6 will be installed
+I, [2015-06-18T16:29:15.446658 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-httplib2-0.7.7-1.el6.noarch
+I, [2015-06-18T16:29:15.448152 #4733]  INFO -- default-centos: ---> Package python-keyczar.noarch 0:0.71c-1.el6 will be installed
+I, [2015-06-18T16:29:15.451706 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-keyczar-0.71c-1.el6.noarch
+I, [2015-06-18T16:29:15.452767 #4733]  INFO -- default-centos: ---> Package python-markupsafe.x86_64 0:0.11-10.el7 will be installed
+I, [2015-06-18T16:29:15.456743 #4733]  INFO -- default-centos: ---> Package python-pyasn1.noarch 0:0.1.6-2.el7 will be installed
+I, [2015-06-18T16:29:15.456799 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:15.456799 #4733]  INFO -- default-centos: ---> Package ansible.noarch 0:1.9.1-1.el6 will be installed
+I, [2015-06-18T16:29:15.461481 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.462922 #4733]  INFO -- default-centos: --> Processing Dependency: python-simplejson for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.465937 #4733]  INFO -- default-centos: ---> Package perl-Encode.x86_64 0:2.51-7.el7 will be installed
+I, [2015-06-18T16:29:15.475753 #4733]  INFO -- default-centos: ---> Package perl-Pod-Escapes.noarch 1:1.04-285.el7 will be installed
+I, [2015-06-18T16:29:15.478726 #4733]  INFO -- default-centos: ---> Package perl-Pod-Perldoc.noarch 0:3.20-4.el7 will be installed
+I, [2015-06-18T16:29:15.493834 #4733]  INFO -- default-centos: --> Processing Dependency: perl(parent) for package: perl-Pod-Perldoc-3.20-4.el7.noarch
+I, [2015-06-18T16:29:15.496937 #4733]  INFO -- default-centos: --> Processing Dependency: perl(HTTP::Tiny) for package: perl-Pod-Perldoc-3.20-4.el7.noarch
+I, [2015-06-18T16:29:15.498598 #4733]  INFO -- default-centos: ---> Package perl-podlators.noarch 0:2.5.1-3.el7 will be installed
+I, [2015-06-18T16:29:15.506644 #4733]  INFO -- default-centos: ---> Package python-backports.x86_64 0:1.0-8.el7 will be installed
+I, [2015-06-18T16:29:15.506711 #4733]  INFO -- default-centos: ---> Package python-crypto2.6.x86_64 0:2.6.1-2.el6 will be installed
+I, [2015-06-18T16:29:15.508758 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-crypto2.6-2.6.1-2.el6.x86_64
+I, [2015-06-18T16:29:15.513068 #4733]  INFO -- default-centos: --> Processing Dependency: libpython2.6.so.1.0()(64bit) for package: python-crypto2.6-2.6.1-2.el6.x86_64
+I, [2015-06-18T16:29:15.514736 #4733]  INFO -- default-centos: ---> Package python-httplib2.noarch 0:0.7.7-1.el6 will be installed
+I, [2015-06-18T16:29:15.514789 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-httplib2-0.7.7-1.el6.noarch
+I, [2015-06-18T16:29:15.517870 #4733]  INFO -- default-centos: ---> Package python-keyczar.noarch 0:0.71c-1.el6 will be installed
+I, [2015-06-18T16:29:15.521606 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-keyczar-0.71c-1.el6.noarch
+I, [2015-06-18T16:29:15.522614 #4733]  INFO -- default-centos: ---> Package python-six.noarch 0:1.7.3-1.el6 will be installed
+I, [2015-06-18T16:29:15.522690 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-six-1.7.3-1.el6.noarch
+I, [2015-06-18T16:29:15.524714 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:15.524787 #4733]  INFO -- default-centos: ---> Package ansible.noarch 0:1.9.1-1.el6 will be installed
+I, [2015-06-18T16:29:15.529952 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.533751 #4733]  INFO -- default-centos: --> Processing Dependency: python-simplejson for package: ansible-1.9.1-1.el6.noarch
+I, [2015-06-18T16:29:15.533817 #4733]  INFO -- default-centos: ---> Package perl-HTTP-Tiny.noarch 0:0.033-3.el7 will be installed
+I, [2015-06-18T16:29:15.539801 #4733]  INFO -- default-centos: ---> Package perl-parent.noarch 1:0.225-244.el7 will be installed
+I, [2015-06-18T16:29:15.541562 #4733]  INFO -- default-centos: ---> Package python-crypto2.6.x86_64 0:2.6.1-2.el6 will be installed
+I, [2015-06-18T16:29:15.543958 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-crypto2.6-2.6.1-2.el6.x86_64
+I, [2015-06-18T16:29:15.547583 #4733]  INFO -- default-centos: --> Processing Dependency: libpython2.6.so.1.0()(64bit) for package: python-crypto2.6-2.6.1-2.el6.x86_64
+I, [2015-06-18T16:29:15.547644 #4733]  INFO -- default-centos: ---> Package python-httplib2.noarch 0:0.7.7-1.el6 will be installed
+I, [2015-06-18T16:29:15.549598 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-httplib2-0.7.7-1.el6.noarch
+I, [2015-06-18T16:29:15.551049 #4733]  INFO -- default-centos: ---> Package python-keyczar.noarch 0:0.71c-1.el6 will be installed
+I, [2015-06-18T16:29:15.552834 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-keyczar-0.71c-1.el6.noarch
+I, [2015-06-18T16:29:15.555811 #4733]  INFO -- default-centos: ---> Package python-six.noarch 0:1.7.3-1.el6 will be installed
+I, [2015-06-18T16:29:15.556886 #4733]  INFO -- default-centos: --> Processing Dependency: python(abi) = 2.6 for package: python-six-1.7.3-1.el6.noarch
+I, [2015-06-18T16:29:15.673856 #4733]  INFO -- default-centos: --> Finished Dependency Resolution
+I, [2015-06-18T16:29:15.681941 #4733]  INFO -- default-centos: Error: Package: ansible-1.9.1-1.el6.noarch (epel)
+I, [2015-06-18T16:29:15.682086 #4733]  INFO -- default-centos:     Requires: python(abi) = 2.6
+I, [2015-06-18T16:29:15.682147 #4733]  INFO -- default-centos:     Installed: python-2.7.5-16.el7.x86_64 (@CentOS/$releasever)
+I, [2015-06-18T16:29:15.682202 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.682232 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.682254 #4733]  INFO -- default-centos: Error: Package: ansible-1.9.1-1.el6.noarch (epel)
+I, [2015-06-18T16:29:15.682300 #4733]  INFO -- default-centos:     Requires: python-simplejson
+I, [2015-06-18T16:29:15.682333 #4733]  INFO -- default-centos: Error: Package: python-keyczar-0.71c-1.el6.noarch (epel)
+I, [2015-06-18T16:29:15.682362 #4733]  INFO -- default-centos:     Requires: python(abi) = 2.6
+I, [2015-06-18T16:29:15.682388 #4733]  INFO -- default-centos:     Installed: python-2.7.5-16.el7.x86_64 (@CentOS/$releasever)
+I, [2015-06-18T16:29:15.682424 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.682459 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.682485 #4733]  INFO -- default-centos: Error: Package: python-crypto2.6-2.6.1-2.el6.x86_64 (epel)
+I, [2015-06-18T16:29:15.682511 #4733]  INFO -- default-centos:     Requires: libpython2.6.so.1.0()(64bit)
+I, [2015-06-18T16:29:15.682532 #4733]  INFO -- default-centos: Error: Package: python-httplib2-0.7.7-1.el6.noarch (epel)
+I, [2015-06-18T16:29:15.682558 #4733]  INFO -- default-centos:     Requires: python(abi) = 2.6
+I, [2015-06-18T16:29:15.682600 #4733]  INFO -- default-centos:     Installed: python-2.7.5-16.el7.x86_64 (@CentOS/$releasever)
+I, [2015-06-18T16:29:15.682644 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.682673 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.682714 #4733]  INFO -- default-centos: Error: Package: python-six-1.7.3-1.el6.noarch (epel)
+I, [2015-06-18T16:29:15.682752 #4733]  INFO -- default-centos:     Requires: python(abi) = 2.6
+I, [2015-06-18T16:29:15.682783 #4733]  INFO -- default-centos:     Installed: python-2.7.5-16.el7.x86_64 (@CentOS/$releasever)
+I, [2015-06-18T16:29:15.682810 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.682836 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.685694 #4733]  INFO -- default-centos: Error: Package: python-crypto2.6-2.6.1-2.el6.x86_64 (epel)
+I, [2015-06-18T16:29:15.685757 #4733]  INFO -- default-centos:     Requires: python(abi) = 2.6
+I, [2015-06-18T16:29:15.685787 #4733]  INFO -- default-centos:     Installed: python-2.7.5-16.el7.x86_64 (@CentOS/$releasever)
+I, [2015-06-18T16:29:15.685825 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.685854 #4733]  INFO -- default-centos:         python(abi) = 2.7
+I, [2015-06-18T16:29:15.685876 #4733]  INFO -- default-centos:  You could try using --skip-broken to work around the problem
+I, [2015-06-18T16:29:15.778770 #4733]  INFO -- default-centos:  You could try running: rpm -Va --nofiles --nodigest
+I, [2015-06-18T16:29:15.811489 #4733]  INFO -- default-centos: which: no ruby in (/usr/local/bin:/usr/bin)
+I, [2015-06-18T16:29:15.965980 #4733]  INFO -- default-centos: Loaded plugins: fastestmirror
+I, [2015-06-18T16:29:21.185765 #4733]  INFO -- default-centos: base                                                     | 3.6 kB     00:00     
+I, [2015-06-18T16:29:28.403537 #4733]  INFO -- default-centos: epel/x86_64/metalink                                     | 3.5 kB     00:00     
+I, [2015-06-18T16:29:28.612680 #4733]  INFO -- default-centos: extras                                                   | 3.4 kB     00:00     
+I, [2015-06-18T16:29:33.987242 #4733]  INFO -- default-centos: systemdcontainer                                         | 1.9 kB     00:00     
+I, [2015-06-18T16:29:34.031797 #4733]  INFO -- default-centos: updates                                                  | 3.4 kB     00:00     
+I, [2015-06-18T16:29:34.134723 #4733]  INFO -- default-centos: Loading mirror speeds from cached hostfile
+I, [2015-06-18T16:29:34.498972 #4733]  INFO -- default-centos:  * base: www.ftp.ne.jp
+I, [2015-06-18T16:29:34.502124 #4733]  INFO -- default-centos:  * epel: ftp.iij.ad.jp
+I, [2015-06-18T16:29:34.503930 #4733]  INFO -- default-centos:  * extras: www.ftp.ne.jp
+I, [2015-06-18T16:29:34.506745 #4733]  INFO -- default-centos:  * updates: www.ftp.ne.jp
+I, [2015-06-18T16:29:39.492686 #4733]  INFO -- default-centos: Metadata Cache Created
+I, [2015-06-18T16:29:39.664819 #4733]  INFO -- default-centos: Loaded plugins: fastestmirror
+I, [2015-06-18T16:29:39.720565 #4733]  INFO -- default-centos: Loading mirror speeds from cached hostfile
+I, [2015-06-18T16:29:40.139768 #4733]  INFO -- default-centos:  * base: www.ftp.ne.jp
+I, [2015-06-18T16:29:40.141475 #4733]  INFO -- default-centos:  * epel: ftp.iij.ad.jp
+I, [2015-06-18T16:29:40.141537 #4733]  INFO -- default-centos:  * extras: www.ftp.ne.jp
+I, [2015-06-18T16:29:40.145413 #4733]  INFO -- default-centos:  * updates: www.ftp.ne.jp
+I, [2015-06-18T16:29:41.483641 #4733]  INFO -- default-centos: Resolving Dependencies
+I, [2015-06-18T16:29:41.483702 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:41.485525 #4733]  INFO -- default-centos: ---> Package ruby.x86_64 0:2.0.0.598-24.el7 will be installed
+I, [2015-06-18T16:29:41.495506 #4733]  INFO -- default-centos: --> Processing Dependency: ruby-libs(x86-64) = 2.0.0.598-24.el7 for package: ruby-2.0.0.598-24.el7.x86_64
+I, [2015-06-18T16:29:41.790675 #4733]  INFO -- default-centos: --> Processing Dependency: rubygem(bigdecimal) >= 1.2.0 for package: ruby-2.0.0.598-24.el7.x86_64
+I, [2015-06-18T16:29:41.792568 #4733]  INFO -- default-centos: --> Processing Dependency: ruby(rubygems) >= 2.0.14 for package: ruby-2.0.0.598-24.el7.x86_64
+I, [2015-06-18T16:29:41.795160 #4733]  INFO -- default-centos: --> Processing Dependency: libruby.so.2.0()(64bit) for package: ruby-2.0.0.598-24.el7.x86_64
+I, [2015-06-18T16:29:41.795246 #4733]  INFO -- default-centos: ---> Package ruby-devel.x86_64 0:2.0.0.598-24.el7 will be installed
+I, [2015-06-18T16:29:41.797683 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:41.798810 #4733]  INFO -- default-centos: ---> Package ruby-libs.x86_64 0:2.0.0.598-24.el7 will be installed
+I, [2015-06-18T16:29:41.815401 #4733]  INFO -- default-centos: ---> Package rubygem-bigdecimal.x86_64 0:1.2.0-24.el7 will be installed
+I, [2015-06-18T16:29:41.815894 #4733]  INFO -- default-centos: ---> Package rubygems.noarch 0:2.0.14-24.el7 will be installed
+I, [2015-06-18T16:29:41.817607 #4733]  INFO -- default-centos: --> Processing Dependency: rubygem(rdoc) >= 4.0.0 for package: rubygems-2.0.14-24.el7.noarch
+I, [2015-06-18T16:29:41.821803 #4733]  INFO -- default-centos: --> Processing Dependency: rubygem(psych) >= 2.0.0 for package: rubygems-2.0.14-24.el7.noarch
+I, [2015-06-18T16:29:41.825778 #4733]  INFO -- default-centos: --> Processing Dependency: rubygem(io-console) >= 0.4.2 for package: rubygems-2.0.14-24.el7.noarch
+I, [2015-06-18T16:29:41.828675 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:41.828734 #4733]  INFO -- default-centos: ---> Package rubygem-io-console.x86_64 0:0.4.2-24.el7 will be installed
+I, [2015-06-18T16:29:41.830828 #4733]  INFO -- default-centos: ---> Package rubygem-psych.x86_64 0:2.0.0-24.el7 will be installed
+I, [2015-06-18T16:29:41.832723 #4733]  INFO -- default-centos: --> Processing Dependency: libyaml-0.so.2()(64bit) for package: rubygem-psych-2.0.0-24.el7.x86_64
+I, [2015-06-18T16:29:41.836803 #4733]  INFO -- default-centos: ---> Package rubygem-rdoc.noarch 0:4.0.0-24.el7 will be installed
+I, [2015-06-18T16:29:41.841881 #4733]  INFO -- default-centos: --> Processing Dependency: ruby(irb) = 2.0.0.598 for package: rubygem-rdoc-4.0.0-24.el7.noarch
+I, [2015-06-18T16:29:41.845590 #4733]  INFO -- default-centos: --> Processing Dependency: rubygem(json) >= 1.7.7 for package: rubygem-rdoc-4.0.0-24.el7.noarch
+I, [2015-06-18T16:29:41.847633 #4733]  INFO -- default-centos: --> Running transaction check
+I, [2015-06-18T16:29:41.847650 #4733]  INFO -- default-centos: ---> Package libyaml.x86_64 0:0.1.4-11.el7_0 will be installed
+I, [2015-06-18T16:29:41.849557 #4733]  INFO -- default-centos: ---> Package ruby-irb.noarch 0:2.0.0.598-24.el7 will be installed
+I, [2015-06-18T16:29:41.849605 #4733]  INFO -- default-centos: ---> Package rubygem-json.x86_64 0:1.7.7-24.el7 will be installed
+I, [2015-06-18T16:29:41.886176 #4733]  INFO -- default-centos: --> Finished Dependency Resolution
+I, [2015-06-18T16:29:41.931532 #4733]  INFO -- default-centos: 
+I, [2015-06-18T16:29:41.931587 #4733]  INFO -- default-centos: Dependencies Resolved
+I, [2015-06-18T16:29:41.935494 #4733]  INFO -- default-centos: 
+I, [2015-06-18T16:29:41.935564 #4733]  INFO -- default-centos: ================================================================================
+I, [2015-06-18T16:29:41.935598 #4733]  INFO -- default-centos:  Package                  Arch         Version                 Repository  Size
+I, [2015-06-18T16:29:41.935637 #4733]  INFO -- default-centos: ================================================================================
+I, [2015-06-18T16:29:41.935659 #4733]  INFO -- default-centos: Installing:
+I, [2015-06-18T16:29:41.935680 #4733]  INFO -- default-centos:  ruby                     x86_64       2.0.0.598-24.el7        base        67 k
+I, [2015-06-18T16:29:41.935702 #4733]  INFO -- default-centos:  ruby-devel               x86_64       2.0.0.598-24.el7        base       127 k
+I, [2015-06-18T16:29:41.935732 #4733]  INFO -- default-centos: Installing for dependencies:
+I, [2015-06-18T16:29:41.935756 #4733]  INFO -- default-centos:  libyaml                  x86_64       0.1.4-11.el7_0          base        55 k
+I, [2015-06-18T16:29:41.935778 #4733]  INFO -- default-centos:  ruby-irb                 noarch       2.0.0.598-24.el7        base        88 k
+I, [2015-06-18T16:29:41.935800 #4733]  INFO -- default-centos:  ruby-libs                x86_64       2.0.0.598-24.el7        base       2.8 M
+I, [2015-06-18T16:29:41.935821 #4733]  INFO -- default-centos:  rubygem-bigdecimal       x86_64       1.2.0-24.el7            base        79 k
+I, [2015-06-18T16:29:41.935842 #4733]  INFO -- default-centos:  rubygem-io-console       x86_64       0.4.2-24.el7            base        50 k
+I, [2015-06-18T16:29:41.935863 #4733]  INFO -- default-centos:  rubygem-json             x86_64       1.7.7-24.el7            base        75 k
+I, [2015-06-18T16:29:41.935884 #4733]  INFO -- default-centos:  rubygem-psych            x86_64       2.0.0-24.el7            base        77 k
+I, [2015-06-18T16:29:41.935914 #4733]  INFO -- default-centos:  rubygem-rdoc             noarch       4.0.0-24.el7            base       318 k
+I, [2015-06-18T16:29:41.935931 #4733]  INFO -- default-centos:  rubygems                 noarch       2.0.14-24.el7           base       212 k
+I, [2015-06-18T16:29:41.935960 #4733]  INFO -- default-centos: 
+I, [2015-06-18T16:29:41.936011 #4733]  INFO -- default-centos: Transaction Summary
+I, [2015-06-18T16:29:41.936055 #4733]  INFO -- default-centos: ================================================================================
+I, [2015-06-18T16:29:41.936103 #4733]  INFO -- default-centos: Install  2 Packages (+9 Dependent packages)
+I, [2015-06-18T16:29:41.936154 #4733]  INFO -- default-centos: 
+I, [2015-06-18T16:29:41.936198 #4733]  INFO -- default-centos: Total download size: 3.9 M
+I, [2015-06-18T16:29:41.937811 #4733]  INFO -- default-centos: Installed size: 13 M
+I, [2015-06-18T16:29:41.937873 #4733]  INFO -- default-centos: Downloading packages:
+I, [2015-06-18T16:29:47.338447 #4733]  INFO -- default-centos: (2/11): ruby-2.0.0.598-24. 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/11): libyaml-0.1.4-11.el7_0.x86_64.rpm                  |  55 kB   00:05     
+I, [2015-06-18T16:29:47.385047 #4733]  INFO -- default-centos: (2/11): ruby-devel-2.0.0.598-24.el7.x86_64.rpm             | 127 kB   00:05     
+I, [2015-06-18T16:29:47.423743 #4733]  INFO -- default-centos: (3/11): ruby-2.0.0.598-24.el7.x86_64.rpm                   |  67 kB   00:05     
+I, [2015-06-18T16:29:47.438659 #4733]  INFO -- default-centos: (4/11): ruby-irb-2.0.0.598-24.el7.noarch.rpm               |  88 kB   00:05     
+I, [2015-06-18T16:29:47.493844 #4733]  INFO -- default-centos: (5/11): rubygem-bigdecimal-1.2.0-24.el7.x86_64.rpm         |  79 kB   00:00     
+I, [2015-06-18T16:29:47.576573 #4733]  INFO -- default-centos: (6/11): rubygem-io-console-0.4.2-24.el7.x86_64.rpm         |  50 kB   00:00     
+I, [2015-06-18T16:29:47.580797 #4733]  INFO -- default-centos: (7/11): rubygem-json-1.7.7-24.el7.x86_64.rpm               |  75 kB   00:00     
+I, [2015-06-18T16:29:47.806697 #4733]  INFO -- default-centos: (9/11): rubygem-psych-2.0. 54% [========-       ]  0.0 B/s | 2.1 MB   --:-- ETA (8/11): ruby-libs-2.0.0.598-24.el7.x86_64.rpm              | 2.8 MB   00:00     
+I, [2015-06-18T16:29:47.824657 #4733]  INFO -- default-centos: (9/11): rubygem-rdoc-4.0.0-24.el7.noarch.rpm               | 318 kB   00:00     
+I, [2015-06-18T16:29:47.963836 #4733]  INFO -- default-centos: (10/11): rubygems-2.0.14-24.el7.noarch.rpm                 | 212 kB   00:00     
+I, [2015-06-18T16:29:52.853905 #4733]  INFO -- default-centos: (11/11): rubygem-psych-2.0 98% [===============-] 322 kB/s | 3.8 MB   00:00 ETA (11/11): rubygem-psych-2.0.0-24.el7.x86_64.rpm             |  77 kB   00:05     
+I, [2015-06-18T16:29:52.873062 #4733]  INFO -- default-centos: --------------------------------------------------------------------------------
+I, [2015-06-18T16:29:52.873146 #4733]  INFO -- default-centos: Total                                              366 kB/s | 3.9 MB  00:10     
+I, [2015-06-18T16:29:52.895401 #4733]  INFO -- default-centos: Running transaction check
+I, [2015-06-18T16:29:52.913645 #4733]  INFO -- default-centos: Running transaction test
+I, [2015-06-18T16:29:52.942616 #4733]  INFO -- default-centos: Transaction test succeeded
+I, [2015-06-18T16:29:52.944671 #4733]  INFO -- default-centos: Running transaction
+I, [2015-06-18T16:29:52.947605 #4733]  INFO -- default-centos: Warning: RPMDB altered outside of yum.
+I, [2015-06-18T16:29:53.826224 #4733]  INFO -- default-centos:   Installing : ruby-libs-2.0.0.598-24.el7. [                            ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#                           ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [##                          ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [###                         ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [####                        ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#####                       ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [######                      ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#######                     ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [########                    ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#########                   ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [##########                  ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [###########                 ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [############                ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#############               ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [##############              ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [###############             ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [################            ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#################           ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [##################          ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [###################         ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [####################        ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#####################       ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [######################      ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#######################     ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [########################    ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [#########################   ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [##########################  ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7. [########################### ]  1/11  Installing : ruby-libs-2.0.0.598-24.el7.x86_64                           1/11 
+I, [2015-06-18T16:29:53.925926 #4733]  INFO -- default-centos:   Installing : libyaml-0.1.4-11.el7_0.x86_ [                            ]  2/11  Installing : libyaml-0.1.4-11.el7_0.x86_ [#############               ]  2/11  Installing : libyaml-0.1.4-11.el7_0.x86_ [########################### ]  2/11  Installing : libyaml-0.1.4-11.el7_0.x86_64                               2/11 
+I, [2015-06-18T16:29:53.981616 #4733]  INFO -- default-centos:   Installing : rubygem-io-console-0.4.2-24 [                            ]  3/11  Installing : rubygem-io-console-0.4.2-24 [########################    ]  3/11  Installing : rubygem-io-console-0.4.2-24 [#########################   ]  3/11  Installing : rubygem-io-console-0.4.2-24 [##########################  ]  3/11  Installing : rubygem-io-console-0.4.2-24 [########################### ]  3/11  Installing : rubygem-io-console-0.4.2-24.el7.x86_64                      3/11 
+I, [2015-06-18T16:29:54.044564 #4733]  INFO -- default-centos:   Installing : rubygem-bigdecimal-1.2.0-24 [                            ]  4/11  Installing : rubygem-bigdecimal-1.2.0-24 [#####################       ]  4/11  Installing : rubygem-bigdecimal-1.2.0-24 [######################      ]  4/11  Installing : rubygem-bigdecimal-1.2.0-24 [#######################     ]  4/11  Installing : rubygem-bigdecimal-1.2.0-24 [########################    ]  4/11  Installing : rubygem-bigdecimal-1.2.0-24 [##########################  ]  4/11  Installing : rubygem-bigdecimal-1.2.0-24 [########################### ]  4/11  Installing : rubygem-bigdecimal-1.2.0-24.el7.x86_64                      4/11 
+I, [2015-06-18T16:29:54.120731 #4733]  INFO -- default-centos:   Installing : ruby-irb-2.0.0.598-24.el7.n [                            ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [###                         ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [####                        ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [#####                       ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [#######                     ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [########                    ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [#########                   ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [##########                  ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [###########                 ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [#############               ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [###############             ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [################            ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [#################           ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [##################          ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [###################         ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [####################        ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [########################    ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [#########################   ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [##########################  ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.n [########################### ]  5/11  Installing : ruby-irb-2.0.0.598-24.el7.noarch                            5/11 
+I, [2015-06-18T16:29:54.176864 #4733]  INFO -- default-centos:   Installing : ruby-2.0.0.598-24.el7.x86_6 [                            ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_6 [#                           ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_6 [####                        ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_6 [#####                       ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_6 [######                      ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_6 [#######                     ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_6 [###############             ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_6 [########################    ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_6 [#########################   ]  6/11  Installing : ruby-2.0.0.598-24.el7.x86_64                                6/11 
+I, [2015-06-18T16:29:54.346579 #4733]  INFO -- default-centos:   Installing : rubygem-rdoc-4.0.0-24.el7.n [                            ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#                           ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [##                          ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [###                         ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#####                       ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [######                      ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#######                     ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#########                   ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [##########                  ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [############                ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#############               ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [##############              ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [###############             ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [################            ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#################           ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [##################          ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [###################         ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [####################        ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#####################       ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [######################      ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#######################     ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [########################    ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [#########################   ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [##########################  ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.n [########################### ]  7/11  Installing : rubygem-rdoc-4.0.0-24.el7.noarch                            7/11 
+I, [2015-06-18T16:29:54.425866 #4733]  INFO -- default-centos:   Installing : rubygem-json-1.7.7-24.el7.x [                            ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x [##########                  ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x [##################          ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x [###################         ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x [####################        ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x [#####################       ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x [######################      ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x [##########################  ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x [########################### ]  8/11  Installing : rubygem-json-1.7.7-24.el7.x86_64                            8/11 
+I, [2015-06-18T16:29:54.559168 #4733]  INFO -- default-centos:   Installing : rubygems-2.0.14-24.el7.noar [                            ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [#                           ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [##                          ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [###                         ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [####                        ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [#####                       ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [######                      ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [#######                     ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [########                    ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [#########                   ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [##########                  ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [###########                 ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [############                ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [#############               ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [##############              ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [###############             ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [################            ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [#################           ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [##################          ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [###################         ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [####################        ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [#####################       ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [########################    ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [#########################   ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [##########################  ]  9/11  Installing : rubygems-2.0.14-24.el7.noar [########################### ]  9/11  Installing : rubygems-2.0.14-24.el7.noarch                               9/11 
+I, [2015-06-18T16:29:54.644271 #4733]  INFO -- default-centos:   Installing : rubygem-psych-2.0.0-24.el7. [                            ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [######                      ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [#######                     ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [#########                   ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [##########                  ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [############                ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [#############               ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [##############              ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [###############             ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [################            ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [#################           ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [##################          ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [###################         ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [####################        ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [######################      ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [##########################  ] 10/11  Installing : rubygem-psych-2.0.0-24.el7. [########################### ] 10/11  Installing : rubygem-psych-2.0.0-24.el7.x86_64                          10/11 
+I, [2015-06-18T16:29:54.726691 #4733]  INFO -- default-centos:   Installing : ruby-devel-2.0.0.598-24.el7 [                            ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [#                           ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [##                          ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [###                         ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [######                      ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [#######                     ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [##########                  ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [##############              ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [###############             ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [#################           ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [###################         ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7 [######################      ] 11/11  Installing : ruby-devel-2.0.0.598-24.el7.x86_64                         11/11 
+I, [2015-06-18T16:29:54.776335 #4733]  INFO -- default-centos:   Verifying  : libyaml-0.1.4-11.el7_0.x86_64                               1/11 
+I, [2015-06-18T16:29:54.804797 #4733]  INFO -- default-centos:   Verifying  : ruby-irb-2.0.0.598-24.el7.noarch                            2/11 
+I, [2015-06-18T16:29:54.827518 #4733]  INFO -- default-centos:   Verifying  : rubygem-io-console-0.4.2-24.el7.x86_64                      3/11 
+I, [2015-06-18T16:29:54.848718 #4733]  INFO -- default-centos:   Verifying  : ruby-libs-2.0.0.598-24.el7.x86_64                           4/11 
+I, [2015-06-18T16:29:54.870382 #4733]  INFO -- default-centos:   Verifying  : rubygem-bigdecimal-1.2.0-24.el7.x86_64                      5/11 
+I, [2015-06-18T16:29:54.890736 #4733]  INFO -- default-centos:   Verifying  : rubygem-rdoc-4.0.0-24.el7.noarch                            6/11 
+I, [2015-06-18T16:29:54.911859 #4733]  INFO -- default-centos:   Verifying  : ruby-devel-2.0.0.598-24.el7.x86_64                          7/11 
+I, [2015-06-18T16:29:54.932703 #4733]  INFO -- default-centos:   Verifying  : rubygems-2.0.14-24.el7.noarch                               8/11 
+I, [2015-06-18T16:29:54.953561 #4733]  INFO -- default-centos:   Verifying  : rubygem-psych-2.0.0-24.el7.x86_64                           9/11 
+I, [2015-06-18T16:29:54.974704 #4733]  INFO -- default-centos:   Verifying  : ruby-2.0.0.598-24.el7.x86_64                               10/11 
+I, [2015-06-18T16:29:54.997036 #4733]  INFO -- default-centos:   Verifying  : rubygem-json-1.7.7-24.el7.x86_64                           11/11 
+I, [2015-06-18T16:29:55.065887 #4733]  INFO -- default-centos: 
+I, [2015-06-18T16:29:55.065951 #4733]  INFO -- default-centos: Installed:
+I, [2015-06-18T16:29:55.065976 #4733]  INFO -- default-centos:   ruby.x86_64 0:2.0.0.598-24.el7      ruby-devel.x86_64 0:2.0.0.598-24.el7     
+I, [2015-06-18T16:29:55.065997 #4733]  INFO -- default-centos: 
+I, [2015-06-18T16:29:55.066017 #4733]  INFO -- default-centos: Dependency Installed:
+I, [2015-06-18T16:29:55.066039 #4733]  INFO -- default-centos:   libyaml.x86_64 0:0.1.4-11.el7_0                                               
+I, [2015-06-18T16:29:55.066061 #4733]  INFO -- default-centos:   ruby-irb.noarch 0:2.0.0.598-24.el7                                            
+I, [2015-06-18T16:29:55.066083 #4733]  INFO -- default-centos:   ruby-libs.x86_64 0:2.0.0.598-24.el7                                           
+I, [2015-06-18T16:29:55.066105 #4733]  INFO -- default-centos:   rubygem-bigdecimal.x86_64 0:1.2.0-24.el7                                      
+I, [2015-06-18T16:29:55.066128 #4733]  INFO -- default-centos:   rubygem-io-console.x86_64 0:0.4.2-24.el7                                      
+I, [2015-06-18T16:29:55.066150 #4733]  INFO -- default-centos:   rubygem-json.x86_64 0:1.7.7-24.el7                                            
+I, [2015-06-18T16:29:55.066172 #4733]  INFO -- default-centos:   rubygem-psych.x86_64 0:2.0.0-24.el7                                           
+I, [2015-06-18T16:29:55.066194 #4733]  INFO -- default-centos:   rubygem-rdoc.noarch 0:4.0.0-24.el7                                            
+I, [2015-06-18T16:29:55.066216 #4733]  INFO -- default-centos:   rubygems.noarch 0:2.0.14-24.el7                                               
+I, [2015-06-18T16:29:55.066236 #4733]  INFO -- default-centos: 
+I, [2015-06-18T16:29:55.066256 #4733]  INFO -- default-centos: Complete!
+I, [2015-06-18T16:29:55.115644 #4733]  INFO -- default-centos: Transferring files to <default-centos>
+I, [2015-06-18T16:29:56.236694 #4733]  INFO -- default-centos: sudo: ansible-playbook: command not found
+E, [2015-06-18T16:29:56.240338 #4733] ERROR -- default-centos: Converge failed on instance <default-centos>.
+E, [2015-06-18T16:29:56.240440 #4733] ERROR -- default-centos: ------Exception-------
+E, [2015-06-18T16:29:56.240465 #4733] ERROR -- default-centos: Class: Kitchen::ActionFailed
+E, [2015-06-18T16:29:56.240484 #4733] ERROR -- default-centos: Message: SSH exited (1) for command: [sudo -E ansible-playbook -i /tmp/kitchen/hosts -M /tmp/kitchen/modules       /tmp/kitchen/site.yml]
+E, [2015-06-18T16:29:56.240502 #4733] ERROR -- default-centos: ---Nested Exception---
+E, [2015-06-18T16:29:56.240520 #4733] ERROR -- default-centos: Class: Kitchen::Transport::SshFailed
+E, [2015-06-18T16:29:56.240536 #4733] ERROR -- default-centos: Message: SSH exited (1) for command: [sudo -E ansible-playbook -i /tmp/kitchen/hosts -M /tmp/kitchen/modules       /tmp/kitchen/site.yml]
+E, [2015-06-18T16:29:56.240554 #4733] ERROR -- default-centos: ------Backtrace-------
+E, [2015-06-18T16:29:56.240571 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/driver/ssh_base.rb:85:in `rescue in converge'
+E, [2015-06-18T16:29:56.240595 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/driver/ssh_base.rb:88:in `converge'
+E, [2015-06-18T16:29:56.240614 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:540:in `legacy_ssh_base_converge'
+E, [2015-06-18T16:29:56.240632 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:364:in `block in converge_action'
+E, [2015-06-18T16:29:56.240650 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:488:in `call'
+E, [2015-06-18T16:29:56.240668 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:488:in `synchronize_or_call'
+E, [2015-06-18T16:29:56.240686 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:453:in `block in action'
+E, [2015-06-18T16:29:56.240715 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/2.2.0/benchmark.rb:288:in `measure'
+E, [2015-06-18T16:29:56.240747 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:452:in `action'
+E, [2015-06-18T16:29:56.240766 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:362:in `converge_action'
+E, [2015-06-18T16:29:56.240803 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:341:in `block in transition_to'
+E, [2015-06-18T16:29:56.240822 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:340:in `each'
+E, [2015-06-18T16:29:56.240840 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:340:in `transition_to'
+E, [2015-06-18T16:29:56.240857 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:160:in `verify'
+E, [2015-06-18T16:29:56.240874 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:189:in `block in test'
+E, [2015-06-18T16:29:56.240892 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/2.2.0/benchmark.rb:288:in `measure'
+E, [2015-06-18T16:29:56.240909 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/instance.rb:185:in `test'
+E, [2015-06-18T16:29:56.240927 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/command.rb:176:in `public_send'
+E, [2015-06-18T16:29:56.240944 #4733] ERROR -- default-centos: /usr/local/ruby/lib/ruby/gems/2.2.0/gems/test-kitchen-1.4.0/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
+E, [2015-06-18T16:29:56.240962 #4733] ERROR -- default-centos: ----------------------

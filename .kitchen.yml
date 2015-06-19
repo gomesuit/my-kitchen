@@ -10,7 +10,7 @@ provisioner:
   require_ansible_repo: true
 
 platforms:
-  - name: centos
+  - name: centos-6
 
 suites:
   - name: default

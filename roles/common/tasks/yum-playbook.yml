@@ -7,3 +7,12 @@
 
 - name: be sure git is installed
   yum: name=git state=installed
+
+- name: be sure tar is installed
+  yum: name=tar state=installed
+
+- name: be sure unzip is installed
+  yum: name=unzip state=installed
+
+- name: be sure gcc is installed
+  yum: name=gcc state=installed

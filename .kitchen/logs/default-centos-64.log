@@ -1,0 +1,106 @@
+I, [2015-06-20T01:49:44.121988 #21163]  INFO -- default-centos-64: -----> Converging <default-centos-64>...
+W, [2015-06-20T01:49:44.122646 #21163]  WARN -- default-centos-64: Running legacy converge for 'Docker' Driver
+I, [2015-06-20T01:49:44.122825 #21163]  INFO -- default-centos-64: Preparing files for transfer
+I, [2015-06-20T01:49:44.122879 #21163]  INFO -- default-centos-64: Preparing playbook
+I, [2015-06-20T01:49:44.123067 #21163]  INFO -- default-centos-64: Preparing modules
+I, [2015-06-20T01:49:44.123219 #21163]  INFO -- default-centos-64: nothing to do for modules
+I, [2015-06-20T01:49:44.123262 #21163]  INFO -- default-centos-64: Preparing roles
+I, [2015-06-20T01:49:44.127073 #21163]  INFO -- default-centos-64: Preparing ansible.cfg file
+I, [2015-06-20T01:49:44.127613 #21163]  INFO -- default-centos-64: Preparing group_vars
+I, [2015-06-20T01:49:44.127778 #21163]  INFO -- default-centos-64: nothing to do for group_vars
+I, [2015-06-20T01:49:44.127852 #21163]  INFO -- default-centos-64: Preparing additional_copy_path
+I, [2015-06-20T01:49:44.127943 #21163]  INFO -- default-centos-64: Preparing host_vars
+I, [2015-06-20T01:49:44.128114 #21163]  INFO -- default-centos-64: nothing to do for host_vars
+I, [2015-06-20T01:49:44.128159 #21163]  INFO -- default-centos-64: Preparing hosts file
+I, [2015-06-20T01:49:44.128312 #21163]  INFO -- default-centos-64: Preparing filter_plugins
+I, [2015-06-20T01:49:44.128697 #21163]  INFO -- default-centos-64: nothing to do for filter_plugins
+I, [2015-06-20T01:49:44.128873 #21163]  INFO -- default-centos-64: Finished Preparing files for transfer
+I, [2015-06-20T01:49:44.129074 #21163]  INFO -- default-centos-64: Installing ansible, will try to determine platform os
+I, [2015-06-20T01:49:44.294624 #21163]  INFO -- default-centos-64: Transferring files to <default-centos-64>
+I, [2015-06-20T01:49:45.652393 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:49:45.652455 #21163]  INFO -- default-centos-64: PLAY [localhost] ************************************************************** 
+I, [2015-06-20T01:49:45.652478 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:49:45.652498 #21163]  INFO -- default-centos-64: GATHERING FACTS *************************************************************** 
+I, [2015-06-20T01:49:45.867630 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:49:45.869588 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:49:45.869626 #21163]  INFO -- default-centos-64: TASK: [common | be sure vim is installed] ************************************* 
+I, [2015-06-20T01:49:52.880908 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:49:52.880962 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:49:52.880985 #21163]  INFO -- default-centos-64: TASK: [common | be sure wget is installed] ************************************ 
+I, [2015-06-20T01:49:53.372374 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:49:53.372443 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:49:53.372466 #21163]  INFO -- default-centos-64: TASK: [common | be sure git is installed] ************************************* 
+I, [2015-06-20T01:49:53.858331 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:49:53.858396 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:49:53.858420 #21163]  INFO -- default-centos-64: TASK: [common | be sure tar is installed] ************************************* 
+I, [2015-06-20T01:49:54.352692 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:49:54.352745 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:49:54.352768 #21163]  INFO -- default-centos-64: TASK: [common | be sure unzip is installed] *********************************** 
+I, [2015-06-20T01:49:54.844728 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:49:54.844782 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:49:54.844805 #21163]  INFO -- default-centos-64: TASK: [common | be sure gcc is installed] ************************************* 
+I, [2015-06-20T01:50:12.506653 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:50:12.508411 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:12.508461 #21163]  INFO -- default-centos-64: TASK: [common | be sure timezone is tokyo] ************************************ 
+I, [2015-06-20T01:50:12.630700 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:50:12.630756 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:12.630779 #21163]  INFO -- default-centos-64: TASK: [serverspec | be sure rubygems is installed] **************************** 
+I, [2015-06-20T01:50:13.123854 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:50:13.124327 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:13.124444 #21163]  INFO -- default-centos-64: TASK: [serverspec | be sure serverspec is installed] ************************** 
+I, [2015-06-20T01:50:13.295760 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:50:13.295816 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:13.295838 #21163]  INFO -- default-centos-64: TASK: [serverspec | be sure rake is installed] ******************************** 
+I, [2015-06-20T01:50:13.467567 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:50:13.467623 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:13.467646 #21163]  INFO -- default-centos-64: TASK: [ruby | install yum packages] ******************************************* 
+I, [2015-06-20T01:50:41.131667 #21163]  INFO -- default-centos-64: [0;32mok: [localhost] => (item=libffi-devel,zlib-devel,openssl-devel)[0m
+I, [2015-06-20T01:50:41.131724 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:41.131724 #21163]  INFO -- default-centos-64: TASK: [ruby | check ruby install] ********************************************* 
+I, [2015-06-20T01:50:41.235427 #21163]  INFO -- default-centos-64: [0;31mfailed: [localhost] => {"changed": false, "cmd": "/usr/local/ruby/bin/ruby --version", "failed": true, "rc": 2}[0m
+I, [2015-06-20T01:50:41.235504 #21163]  INFO -- default-centos-64: [0;31mmsg: [Errno 2] No such file or directory[0m
+I, [2015-06-20T01:50:41.235528 #21163]  INFO -- default-centos-64: [0;36m...ignoring[0m
+I, [2015-06-20T01:50:41.235569 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:41.235602 #21163]  INFO -- default-centos-64: TASK: [ruby | download install src] ******************************************* 
+I, [2015-06-20T01:50:51.719402 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:50:51.719473 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:51.719497 #21163]  INFO -- default-centos-64: TASK: [ruby | unarchive src file] ********************************************* 
+I, [2015-06-20T01:50:53.463604 #21163]  INFO -- default-centos-64: [0;32mok: [localhost][0m
+I, [2015-06-20T01:50:53.463659 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:50:53.463682 #21163]  INFO -- default-centos-64: TASK: [ruby | configure ruby src] ********************************************* 
+I, [2015-06-20T01:51:13.180453 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:51:13.180520 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:51:13.180544 #21163]  INFO -- default-centos-64: TASK: [ruby | make ruby src] ************************************************** 
+I, [2015-06-20T01:56:35.743539 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:56:35.743625 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:56:35.743649 #21163]  INFO -- default-centos-64: TASK: [ruby | make install ruby] ********************************************** 
+I, [2015-06-20T01:56:50.680830 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:56:50.680888 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:56:50.680912 #21163]  INFO -- default-centos-64: TASK: [ruby | export path] **************************************************** 
+I, [2015-06-20T01:56:51.041802 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:56:51.041873 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:56:51.041898 #21163]  INFO -- default-centos-64: TASK: [ruby | create openssl Makefile] **************************************** 
+I, [2015-06-20T01:57:05.818841 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:57:05.818897 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:57:05.818920 #21163]  INFO -- default-centos-64: TASK: [ruby | debug to openssl Makefile] ************************************** 
+I, [2015-06-20T01:57:05.922720 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:57:05.923272 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:57:05.923342 #21163]  INFO -- default-centos-64: TASK: [ruby | make ruby openssl] ********************************************** 
+I, [2015-06-20T01:57:06.226651 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:57:06.226704 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:57:06.226727 #21163]  INFO -- default-centos-64: TASK: [ruby | make install ruby openssl] ************************************** 
+I, [2015-06-20T01:57:06.369702 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:57:06.369758 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:57:06.369780 #21163]  INFO -- default-centos-64: TASK: [ruby | create zlib Makefile] ******************************************* 
+I, [2015-06-20T01:57:06.978459 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:57:06.978527 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:57:06.978550 #21163]  INFO -- default-centos-64: TASK: [ruby | make ruby zlib] ************************************************* 
+I, [2015-06-20T01:57:07.107877 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:57:07.107930 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:57:07.107952 #21163]  INFO -- default-centos-64: TASK: [ruby | make install ruby zlib] ***************************************** 
+I, [2015-06-20T01:57:07.213665 #21163]  INFO -- default-centos-64: [0;33mchanged: [localhost][0m
+I, [2015-06-20T01:57:07.213722 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:57:07.213744 #21163]  INFO -- default-centos-64: PLAY RECAP ******************************************************************** 
+I, [2015-06-20T01:57:07.213772 #21163]  INFO -- default-centos-64: [0;33mlocalhost[0m                  : [0;32mok[0m[0;32m=[0m[0;32m26[0m   [0;33mchanged[0m[0;33m=[0m[0;33m12[0m   unreachable=0    failed=0   
+I, [2015-06-20T01:57:07.213796 #21163]  INFO -- default-centos-64: 
+I, [2015-06-20T01:57:07.248610 #21163]  INFO -- default-centos-64: Finished converging <default-centos-64> (7m23.12s).

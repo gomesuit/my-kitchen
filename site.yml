@@ -3,8 +3,9 @@
   sudo: yes
   roles:
     - common
-    - serverspec
-    - ruby
+#    - serverspec
+#    - ruby
+    - chef
 #  tasks:
 #  	- name: git clone serverspec file
 #      git: repo=https://github.com/gomesuit/serverspecFile.git

@@ -13,7 +13,8 @@ provisioner:
 platforms:
   - name: centos-6.4
     driver_config:
-      provision_command: curl -L https://www.chef.io/chef/install.sh | bash
+      provision_command:
+      - curl -L https://www.chef.io/chef/install.sh | bash
       require_chef_omnibus: false
 
 suites:

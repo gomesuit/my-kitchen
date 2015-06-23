@@ -5,7 +5,7 @@
     - common
     - serverspec
 #    - ruby
-    - chef
+#    - chef
 #  tasks:
 #  	- name: git clone serverspec file
 #      git: repo=https://github.com/gomesuit/serverspecFile.git

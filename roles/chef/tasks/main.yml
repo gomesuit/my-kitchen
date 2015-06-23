@@ -1,4 +1,3 @@
 ---
 - name: configure ruby src
   shell: curl -L https://www.chef.io/chef/install.sh | sudo bash
-  
